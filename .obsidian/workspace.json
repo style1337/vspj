@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "9924ba33bd33ec3e",
+    "type": "split",
+    "children": [
+      {
+        "id": "03acbcc9223f8150",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52a64a781124b1da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vysoká škola polytechnická Jihlava.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fcbe2a618b2d1eba",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb0aa6a8916644a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "007e58bee09ba573",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4f54dcd70b95ac60",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "be609eaaf2066c11",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 363.5
+  },
+  "right": {
+    "id": "d6b1352a6ff3bf6f",
+    "type": "split",
+    "children": [
+      {
+        "id": "d3f0cfa65c401633",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2364d86bcaadf9da",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Vysoká škola polytechnická Jihlava.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f6c752be7f93b901",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1f7bfc44f265b303",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Vysoká škola polytechnická Jihlava.md"
+              }
+            }
+          },
+          {
+            "id": "76cd843e1a7f8f8c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Vysoká škola polytechnická Jihlava.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ffca8472f9388908",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 321.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:Open format converter": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "homepage:Open homepage": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "52a64a781124b1da",
+  "lastOpenFiles": [
+    "Vysoká škola polytechnická Jihlava.md",
+    "img/podstrom.png",
+    "3. semestr/Datové struktury a algoritmy/DSA.md",
+    "img/strom.png",
+    "1. semestr/Diskrétní strukůry/1.test/1. test.md",
+    "1. semestr/Diskrétní strukůry/DS.md",
+    "3. semestr/Matematický seminář/Vzorce.md",
+    "3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Lineárně lomené funkce.md",
+    "3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Kvadratické funkce.md",
+    "3. semestr/Matematický seminář/MAS.md",
+    "3. semestr/Matematický seminář/Poznámky.canvas",
+    "3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Lineární funkce.md",
+    "3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Exponenciální funkce.md",
+    "3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Goniometrické funkce.md",
+    "3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Logaritmické funkce.md",
+    "1. semestr/Diskrétní strukůry/1.test/de Morganovy zákony.md",
+    "1. semestr/Diskrétní strukůry/1.test",
+    "1. semestr/Diskrétní strukůry/1.test/Výroková logika.md",
+    "1. semestr/Diskrétní strukůry/1.test/Základní množinové pojmy.md",
+    "1. semestr/Diskrétní strukůry/Poznámky.md",
+    "1. semestr/Diskrétní strukůry/1.test/Kartézský součin.md",
+    "1. semestr/Diskrétní strukůry/Untitled.canvas",
+    "img/kvadraticka_funkce_graf.png",
+    "img/linearni_funkce_graf.png",
+    "img/Pasted image 20230918233403.png",
+    "img/goniometricke_funkce.png",
+    "3. semestr/Matematický seminář/Poznámky z hodin/19.09.2023.md",
+    "img/Pasted image 20230919133359.png",
+    "img/Pasted image 20230919131100.png",
+    "img/Pasted image 20230919131043.png",
+    "img/Pasted image 20230919131036.png",
+    "3. semestr/Matematický seminář/Poznámky z hodin",
+    "2. semestr/PTPS/Windows Server (PTPS).md",
+    "3. semestr/Programovaní v Java/PJ.md",
+    "3. semestr/Webové technologie/WT.md",
+    "img",
+    "2. semestr/st_grafy/Statistika pro techinky.md",
+    "3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí",
+    "3. semestr/Matematický seminář/MASMatematický seminář.md",
+    "3. semestr/Matematický seminář",
+    "3. semestr/Programovaní technických výpočtů/PTV.md",
+    "3. semestr/Multimedia/xMUMa.md",
+    "1. semestr/Matematika",
+    "1. semestr/Diskrétní strukůry",
+    "1. semestr",
+    "3. semestr/Webové technologie",
+    "3. semestr/Serverový a desktopová administrace"
+  ]
+}
