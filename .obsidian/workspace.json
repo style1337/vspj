@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "52a64a781124b1da",
+            "id": "53f8e7359b9087bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -72,7 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 294.5
   },
   "right": {
     "id": "d6b1352a6ff3bf6f",
@@ -145,7 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,8 +158,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "52a64a781124b1da",
+  "active": "53f8e7359b9087bf",
   "lastOpenFiles": [
+    "README.md",
     "Vysoká škola polytechnická Jihlava.md",
     "img/podstrom.png",
     "3. semestr/Datové struktury a algoritmy/DSA.md",
