@@ -16,3 +16,4 @@
 [[1. semestr/Diskrétní strukůry/DS|Diskrétní strukury]]
 [[3. semestr/Datové struktury a algoritmy/DSA|Datové typy a struktůry]]
 
+
