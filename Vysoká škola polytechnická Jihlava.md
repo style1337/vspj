@@ -15,5 +15,5 @@
 [[3. semestr/Matematický seminář/MAS|Matematický seminář🧮]] 
 [[1. semestr/Diskrétní strukůry/DS|Diskrétní strukury]]
 [[3. semestr/Datové struktury a algoritmy/DSA|Datové typy a struktůry]]
-
+[[3. semestr/Řízení softwarových projektů/RSP|Řízení softwarových projektů]]
 

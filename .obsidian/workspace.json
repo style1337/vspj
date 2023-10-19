@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vysoká škola polytechnická Jihlava.md",
+                "file": "3. semestr/Řízení softwarových projektů/RSP.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vysoká škola polytechnická Jihlava.md",
+                "file": "3. semestr/Řízení softwarových projektů/RSP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vysoká škola polytechnická Jihlava.md"
+                "file": "3. semestr/Řízení softwarových projektů/RSP.md"
               }
             }
           },
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vysoká škola polytechnická Jihlava.md",
+                "file": "3. semestr/Řízení softwarových projektů/RSP.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,6 +160,8 @@
   },
   "active": "53f8e7359b9087bf",
   "lastOpenFiles": [
+    "Vysoká škola polytechnická Jihlava.md",
+    "3. semestr/Řízení softwarových projektů/RSP.md",
     "1. semestr/Diskrétní strukůry/1.test/Základní množinové pojmy.md",
     "1. semestr/Diskrétní strukůry/1.test/Výroková logika.md",
     "1. semestr/Diskrétní strukůry/1.test/Kartézský součin.md",
@@ -167,7 +169,6 @@
     "1. semestr/Diskrétní strukůry/1.test/1. test.md",
     "1. semestr/Diskrétní strukůry/DS.md",
     "1. semestr/Diskrétní strukůry/Poznámky.md",
-    "Vysoká škola polytechnická Jihlava.md",
     "README.md",
     "img/podstrom.png",
     "3. semestr/Datové struktury a algoritmy/DSA.md",
@@ -202,7 +203,6 @@
     "3. semestr/Matematický seminář/MASMatematický seminář.md",
     "3. semestr/Matematický seminář",
     "3. semestr/Programovaní technických výpočtů/PTV.md",
-    "3. semestr/Multimedia/xMUMa.md",
     "1. semestr/Matematika",
     "1. semestr/Diskrétní strukůry",
     "1. semestr",
