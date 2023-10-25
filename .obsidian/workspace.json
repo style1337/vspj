@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vysoká škola polytechnická Jihlava.md",
+                "file": "1. semestr/Diskrétní strukůry/DS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vysoká škola polytechnická Jihlava.md",
+                "file": "1. semestr/Diskrétní strukůry/DS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vysoká škola polytechnická Jihlava.md"
+                "file": "1. semestr/Diskrétní strukůry/DS.md"
               }
             }
           },
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vysoká škola polytechnická Jihlava.md",
+                "file": "1. semestr/Diskrétní strukůry/DS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
