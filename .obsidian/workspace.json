@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/DS.md",
+                "file": "1. semestr/Diskrétní strukůry/1.test/1. test.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -72,7 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5
+    "width": 200
   },
   "right": {
     "id": "d6b1352a6ff3bf6f",
@@ -88,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/DS.md",
+                "file": "1. semestr/Diskrétní strukůry/1.test/1. test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/DS.md"
+                "file": "1. semestr/Diskrétní strukůry/1.test/1. test.md"
               }
             }
           },
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/DS.md",
+                "file": "1. semestr/Diskrétní strukůry/1.test/1. test.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,14 +160,14 @@
   },
   "active": "53f8e7359b9087bf",
   "lastOpenFiles": [
+    "1. semestr/Diskrétní strukůry/1.test/Základní množinové pojmy.md",
+    "1. semestr/Diskrétní strukůry/1.test/1. test.md",
+    "1. semestr/Diskrétní strukůry/DS.md",
     "Vysoká škola polytechnická Jihlava.md",
     "3. semestr/Řízení softwarových projektů/RSP.md",
-    "1. semestr/Diskrétní strukůry/1.test/Základní množinové pojmy.md",
     "1. semestr/Diskrétní strukůry/1.test/Výroková logika.md",
     "1. semestr/Diskrétní strukůry/1.test/Kartézský součin.md",
     "1. semestr/Diskrétní strukůry/1.test/de Morganovy zákony.md",
-    "1. semestr/Diskrétní strukůry/1.test/1. test.md",
-    "1. semestr/Diskrétní strukůry/DS.md",
     "1. semestr/Diskrétní strukůry/Poznámky.md",
     "README.md",
     "img/podstrom.png",
