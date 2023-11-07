@@ -5,8 +5,8 @@
     "includeName": true,
     "pageSize": "A4",
     "landscape": false,
-    "margin": "2",
-    "downscalePercent": 88
+    "margin": "1",
+    "downscalePercent": 76
   },
   "alwaysUpdateLinks": true,
   "newLinkFormat": "absolute",
