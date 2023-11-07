@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"fab24c0f6212e3ea","x":-220,"y":-260,"width":308,"height":79,"type":"text","text":"# Rozdělní sprintů"},
+		{"id":"66decb07d5ab7cd3","x":-191,"y":-26,"width":250,"height":60,"type":"text","text":"Sprint  2 (Hlavní část)"},
+		{"id":"5f2450a085ec51b7","x":-470,"y":-26,"width":250,"height":60,"type":"text","text":"Sprint  1 (Základní funkce)"},
+		{"id":"29037d545a0820f3","x":100,"y":-26,"width":280,"height":60,"type":"text","text":"Sprint  3 (Testing a Deploy)"},
+		{"id":"a3aba60bb93e0710","x":-470,"y":128,"width":250,"height":60,"type":"text","text":"9.11 - 23.11"},
+		{"id":"6a578d4b680393f0","x":100,"y":128,"width":280,"height":60,"type":"text","text":"9.12 - 23.12"},
+		{"id":"bf0ced3421978cfd","x":-191,"y":128,"width":250,"height":60,"type":"text","text":"24.11 - 8.12 "}
+	],
+	"edges":[
+		{"id":"10610e10778ce276","fromNode":"fab24c0f6212e3ea","fromSide":"bottom","toNode":"5f2450a085ec51b7","toSide":"top"},
+		{"id":"f1558c48aa3061c6","fromNode":"fab24c0f6212e3ea","fromSide":"bottom","toNode":"66decb07d5ab7cd3","toSide":"top"},
+		{"id":"94be927906c21f02","fromNode":"fab24c0f6212e3ea","fromSide":"bottom","toNode":"29037d545a0820f3","toSide":"top"},
+		{"id":"bc5e6a9e7ac1df9f","fromNode":"5f2450a085ec51b7","fromSide":"bottom","toNode":"a3aba60bb93e0710","toSide":"top"},
+		{"id":"633ef116c7f9b181","fromNode":"66decb07d5ab7cd3","fromSide":"bottom","toNode":"bf0ced3421978cfd","toSide":"top"},
+		{"id":"ac50b3d4ba389195","fromNode":"29037d545a0820f3","fromSide":"bottom","toNode":"6a578d4b680393f0","toSide":"top"}
+	]
+}

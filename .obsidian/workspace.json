@@ -11,12 +11,14 @@
             "id": "53f8e7359b9087bf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/1.test/1. test.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "3. semestr/Řízení softwarových projektů/Sprinty.canvas",
+                "viewState": {
+                  "x": -45,
+                  "y": -36,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -88,7 +90,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/1.test/1. test.md",
+                "file": "3. semestr/Řízení softwarových projektů/Sprinty.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/1.test/1. test.md"
+                "file": "3. semestr/Řízení softwarových projektů/Sprinty.canvas"
               }
             }
           },
@@ -121,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/1.test/1. test.md",
+                "file": "3. semestr/Řízení softwarových projektů/Sprinty.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,9 +162,11 @@
   },
   "active": "53f8e7359b9087bf",
   "lastOpenFiles": [
+    "3. semestr/Řízení softwarových projektů/Untitled.md",
+    "3. semestr/Řízení softwarových projektů/Sprinty.canvas",
+    "Vysoká škola polytechnická Jihlava.md",
     "1. semestr/Diskrétní strukůry/Poznámky.md",
     "1. semestr/Diskrétní strukůry/DS.md",
-    "Vysoká škola polytechnická Jihlava.md",
     "1. semestr/Diskrétní strukůry/1.test/Základní množinové pojmy.md",
     "1. semestr/Diskrétní strukůry/1.test/1. test.md",
     "3. semestr/Řízení softwarových projektů/RSP.md",
@@ -200,9 +204,7 @@
     "img",
     "2. semestr/st_grafy/Statistika pro techinky.md",
     "3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí",
-    "3. semestr/Matematický seminář/MASMatematický seminář.md",
     "3. semestr/Matematický seminář",
-    "3. semestr/Programovaní technických výpočtů/PTV.md",
     "1. semestr/Matematika",
     "1. semestr/Diskrétní strukůry",
     "1. semestr",
