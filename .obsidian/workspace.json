@@ -11,14 +11,12 @@
             "id": "53f8e7359b9087bf",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "3. semestr/Řízení softwarových projektů/Sprinty.canvas",
-                "viewState": {
-                  "x": -45,
-                  "y": -36,
-                  "zoom": 0
-                }
+                "file": "Vysoká škola polytechnická Jihlava.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -90,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. semestr/Řízení softwarových projektů/Sprinty.canvas",
+                "file": "Vysoká škola polytechnická Jihlava.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. semestr/Řízení softwarových projektů/Sprinty.canvas"
+                "file": "Vysoká škola polytechnická Jihlava.md"
               }
             }
           },
@@ -123,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. semestr/Řízení softwarových projektů/Sprinty.canvas",
+                "file": "Vysoká škola polytechnická Jihlava.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
