@@ -1,12 +1,13 @@
 ## Teorie množin
-1. Co je množina, podmnožina, univerzum? Jak se dokáže rovnost množin?
-- **Množina** je matematický koncept, který představuje ==sbírku objektů==, které jsou nazývány prvky této množiny. Prvky mohou být cokoli - ==čísla, písmena, geometrické tvary nebo jiné matematické objekty==. Množiny jsou obvykle zapisovány v závorkách, například $\{1, 2, 3\}$.
+### Co je množina, podmnožina, univerzum? Jak se dokáže rovnost množin?
+- **Množina** je matematický koncept, který představuje **sbírku objektů**, které jsou nazývány prvky této množiny. Prvky mohou být cokoli - **čísla, písmena, geometrické tvary nebo jiné matematické objekty**. Množiny jsou obvykle zapisovány v závorkách, například $\{1, 2, 3\}$.
 - **Podmnožina** je množina, která obsahuje pouze prvky, které jsou také prvky jiné množiny. Symbolicky se podmnožina zapisuje jako $⊆$. 
 	- Například, pokud máme množinu $A = \{1, 2\}$ a množinu $B = \{1, 2, 3\}$, pak množina $A$ je podmnožinou množiny $B (A ⊆ B)$.
-- **Univerzum** *(nebo také univerzální množina)* je množina, která ==obsahuje všechny prvky, o kterých diskutujeme v daném kontextu==. Symbolicky je často reprezentována písmenem $U$. Univerzum může být například všechna přirozená čísla, reálná čísla nebo něco jiného podle kontextu.
+- **Univerzum** *(nebo také univerzální množina)* je množina, která obsahuje všechny prvky, o kterých diskutujeme v daném kontextu. Symbolicky je často reprezentována písmenem $U$. Univerzum může být například všechna přirozená čísla, reálná čísla nebo něco jiného podle kontextu.
 - **Rovnost množin** je zjišťována tím, zda dvě množiny obsahují stejné prvky. Množina $A$ je rovna množině $B$, pokud mají tyto množiny stejné prvky. Symbolicky se to zapisuje jako $A = B$. 
 	- Například, pokud máme množinu $C = \{1, 2, 3\}$ a množinu $D = \{3, 2, 1\}$, pak jsou tyto množiny rovny, protože obsahují stejné prvky, i když jsou zapsány v jiném pořadí ($C = D$).
-2. Definujte množinové operace – doplněk, průnik, sjednocení, rozdíl.
+### Definujte množinové operace – doplněk, průnik, sjednocení, rozdíl.
+
 - **Doplněk** 
     - **Definice**: Doplněk množiny $A$ vzhledem k univerzální množině $U$ obsahuje všechny prvky univerzální množiny, které nejsou v množině A.
     - Symbolická reprezentace: Doplněk množiny $A$ se značí jako $A'$ nebo $A‾A$.
@@ -23,20 +24,45 @@
    - **Kartézský součin** je matematická operace, která vytváří novou množinu tím, že kombinuje všechny možné páry prvků ze dvou (nebo více) **množin**
    - Pokud máme dvě množiny $A$ a $B$, pak kartézský součin $A x B$ je definován jako množina všech možných uspořádaných dvojic *(a, b)*, kde a je prvek z množiny $A$ a $b$ je prvek z množiny $B$.
   - Symbolicky se kartézský součin zapisuje jako $A×B$ nebo $A x B$.
-1. Co je charakteristická funkce, k čemu se používá?
-2. Ukažte de Morganovy zákony s využitím doplňku a universa, můžete použít Vennův diagram.
-3. Co je mohutnost množiny? Jaká je mohutnost kartézského součinu dvou množin?
-4. Jak se porovnává mohutnost dvou nekonečných množin?
-5. Co je (binární, n-ární) relace?
-6. Co je inverzní relace? Nakreslete příklad.
-7. Co je složená relace? Uveďte příklad.
-8. Co je relace ekvivalence? Jaké má vlastnosti?
-9. Co je relace uspořádání? Jaké má vlastnosti?
-10.  Porovnejte lexikografické uspořádání čísel a běžné uspořádání čísel. 
-11. Co je zobrazení, jak souvisí s relací?
-12. Nakreslete příklad surjektivního/injektivního/bijektivního zobrazení a okomentujte.
-13. Co je inverzní zobrazení a kdy existuje?
-14. Definujte bijektivní zobrazení. Nakreslete příklad.
+### Co je charakteristická funkce, k čemu se používá?
+- Charakteristická funkce, také nazývaná indikátorová funkce, je matematická funkce, která přiřazuje každému prvku množiny hodnotu 0 nebo 1 v závislosti na tom, zda prvek patří nebo nepatří do dané množiny. Tato funkce se často používá v teorii pravděpodobnosti, statistice a dalších oblastech matematiky.
+
+### Ukažte de Morganovy zákony s využitím doplňku a universa, můžete použít Vennův diagram.
+- De Morganovy zákony jsou matematické vztahy mezi doplňky množin, které popisují vztahy mezi operacemi sjednocení a průniku.
+- 1. **První De Morganův zákon:** $A∪B‾=A‾∩B‾$
+	
+    To znamená, že doplněk sjednocení dvou množin je roven průniku jejich doplňků.
+    
+2. **Druhý De Morganův zákon:** $A∩B‾=A‾∪B‾$
+    
+    To znamená, že doplněk průniku dvou množin je roven sjednocení jejich doplňků.
+    
+
+- Na Vennových diagramech je modrá oblast množina $A$, oranžová oblast množina $B$, šedá oblast doplněk množiny $A$, a zelená oblast doplněk množiny $B$. Červená oblast na prvním diagramu reprezentuje doplněk sjednocení $A∪B‾$, a na druhém diagramu reprezentuje doplněk průniku $A∩B‾$.
+
+###  Co je mohutnost množiny? Jaká je mohutnost kartézského součinu dvou množin?
+- **Mohutnost** *(nebo také kardinalita)* množiny měří počet prvků v této množině.
+- **Mohutnost kartézského součinu dvou množin** je tedy rovna mohutnosti první množiny krát mohutnost druhé množiny.
+
+### Jak se porovnává mohutnost dvou nekonečných množin?
+- V jednoduchosti lze říci, že nekonečné množiny jsou velké různými způsoby, a matematikové používají kardinální čísla k vyjádření těchto různých stupňů nekonečnosti. Mohutnost se porovnává pomocí pojmu bijekce, která říká, zda lze každému prvku v jedné množině přiřadit právě jeden prvek v druhé množině, a naopak.
+
+### Co je (binární, n-ární) relace?
+#### Binární relace
+- **Binární relace** je speciální typ relace, která spojuje **dva prvky**, jeden z první množiny a druhý z druhé množiny. Formálně, relace $R$ nad množinami $A$ a $B$ je binární relací, pokud každý prvek $a$ z $A$ a každý prvek $b$ z $B$ platí, že buď $aRb$ *(prvek $a$ je v relaci s prvkem $b$), nebo neplatí $aRb$ (prvek $a$ není v relaci s prvkem $b$)*.
+#### N-árni relace
+- N-ární relace se obecně vztahuje k vztahům mezi n-ticemi prvků z několika množin. Relace může spojovat více než dva prvky najednou.
+
+### Co je inverzní relace? Nakreslete příklad.
+
+2. Co je složená relace? Uveďte příklad.
+3. Co je relace ekvivalence? Jaké má vlastnosti?
+4. Co je relace uspořádání? Jaké má vlastnosti?
+5.  Porovnejte lexikografické uspořádání čísel a běžné uspořádání čísel. 
+6. Co je zobrazení, jak souvisí s relací?
+7. Nakreslete příklad surjektivního/injektivního/bijektivního zobrazení a okomentujte.
+8. Co je inverzní zobrazení a kdy existuje?
+9. Definujte bijektivní zobrazení. Nakreslete příklad.
 
 ## Logika a indukce
 1. Co je výrok a pravdivostní ohodnocení?
