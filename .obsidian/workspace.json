@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/1.test/1. test.md",
+                "file": "1. semestr/Diskrétní strukůry/Ústní zkouška z DS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/1.test/1. test.md",
+                "file": "1. semestr/Diskrétní strukůry/Ústní zkouška z DS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/1.test/1. test.md"
+                "file": "1. semestr/Diskrétní strukůry/Ústní zkouška z DS.md"
               }
             }
           },
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/1.test/1. test.md",
+                "file": "1. semestr/Diskrétní strukůry/Ústní zkouška z DS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,8 +160,9 @@
   },
   "active": "5d5001502a2e5720",
   "lastOpenFiles": [
-    "1. semestr/Diskrétní strukůry/DS.md",
     "Vysoká škola polytechnická Jihlava.md",
+    "1. semestr/Diskrétní strukůry/Ústní zkouška z DS.md",
+    "1. semestr/Diskrétní strukůry/DS.md",
     "3. semestr/Řízení softwarových projektů/Untitled.md",
     "3. semestr/Řízení softwarových projektů/Sprinty.canvas",
     "1. semestr/Diskrétní strukůry/Poznámky.md",
