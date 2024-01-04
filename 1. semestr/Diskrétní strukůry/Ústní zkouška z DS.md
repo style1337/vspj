@@ -54,15 +54,46 @@
 - N-ární relace se obecně vztahuje k vztahům mezi n-ticemi prvků z několika množin. Relace může spojovat více než dva prvky najednou.
 
 ### Co je inverzní relace? Nakreslete příklad.
+- **Inverzní relace** je v matematice relace, která je vytvořena prohazováním prvků vstupní relace. 
+- Jinými slovy, inverzní relace obsahuje všechny páry, které jsou vstupní relací otočené.
 
-2. Co je složená relace? Uveďte příklad.
-3. Co je relace ekvivalence? Jaké má vlastnosti?
-4. Co je relace uspořádání? Jaké má vlastnosti?
-5.  Porovnejte lexikografické uspořádání čísel a běžné uspořádání čísel. 
-6. Co je zobrazení, jak souvisí s relací?
-7. Nakreslete příklad surjektivního/injektivního/bijektivního zobrazení a okomentujte.
-8. Co je inverzní zobrazení a kdy existuje?
-9. Definujte bijektivní zobrazení. Nakreslete příklad.
+### Co je složená relace? Uveďte příklad.
+- Složená relace je operace, která kombinuje dva nebo více relace tak, že výsledná relace obsahuje prvky, které jsou ve vstupních relacích spojeny. Operace složení relací se nazývá také kompozice relací.
+#### TODO PŘÍKLAD
+
+### Co je relace ekvivalence? Jaké má vlastnosti?
+- Relace ekvivalence je speciální druh binární relace, která splňuje tři hlavní vlastnosti: reflexivitu, symetrii a tranzitivitu. Tyto vlastnosti jsou klíčové pro definování ekvivalence mezi prvky množiny.
+- **Reflexivita:** Relace $R$ na množině $A$ je reflexivní, pokud pro každý prvek aa v množině $A$ platí $(a,a)∈R$.
+- **Symetrie:** Relace $R$ na množině $A$ je symetrická, pokud pro každý prvek $a$ a $b$ platí, že pokud $(a,b)∈R$, pak $(b,a)∈R$.
+- **Tranzitivita:** Relace $R$ na množině $A$ je tranzitivní, pokud pro každé $a,b,c$ platí, že pokud $(a,b)∈R$ a $(b,c)∈R$, pak $(a,c)∈R$.
+### Co je relace uspořádání? Jaké má vlastnosti?
+- Relace uspořádání je binární relace na množině, která splňuje tři základní vlastnosti: reflexivitu, antisymetrii a tranzitivitu. Tyto vlastnosti definují uspořádání prvků v množině vzhledem k dané relaci.
+### Porovnejte lexikografické uspořádání čísel a běžné uspořádání čísel. 
+Lexikografické uspořádání a běžné uspořádání čísel jsou dvě odlišné koncepce, které se používají k porovnání prvků, v tomto případě čísel, v různých kontextech.
+
+1. **Běžné uspořádání čísel:**
+    - Běžné uspořádání čísel je založeno na velikosti čísel samotných.
+    - Čísla jsou uspořádána od nejmenšího po největší (nebo naopak) na základě jejich numerických hodnot.
+    - Například v běžném uspořádání jsou čísla 1, 2, 3, 4, 5 uspořádána postupně podle jejich velikosti.
+2. **Lexikografické uspořádání čísel:**
+    - Lexikografické uspořádání se často používá k porovnání n-tic (uspořádaných souborů) nebo slov v abecedním pořadí.
+    - Pokud máme n-tice čísel nebo slova, jsou uspořádány postupně podle hodnot jednotlivých složek n-tice.
+    - Například při lexikografickém uspořádání čísel 11, 2, 3, 21 by byly uspořádány jako 2, 3, 11, 21, protože se nejprve porovnávají první číslice (2 a 1) a pak teprve druhé číslice.
+
+Běžné uspořádání čísel se zakládá na jejich numerických hodnotách, zatímco lexikografické uspořádání čísel se zaměřuje na postupné porovnávání hodnot jednotlivých číslic. Lexikografické uspořádání se často používá v algoritmech, které pracují s textovými nebo symbolickými daty, zatímco běžné uspořádání je běžné při porovnávání čísel v aritmetických operacích.
+
+### Co je zobrazení, jak souvisí s relací?
+- Zobrazení je matematický pojem, který popisuje přiřazování prvků z jedné množiny do druhé množiny tak, že každý prvek z první množiny má právě jednoho partnera v druhé množině. Zobrazení tedy definuje, jak jsou prvky jedné množiny spojeny s prvky druhé množiny.
+- Relace a zobrazení tedy souvisejí tak, že zobrazení může být reprezentováno pomocí relace, která zachycuje, jak jsou prvky jedné množiny spojeny s prvky druhé množiny.
+###  Nakreslete příklad surjektivního/injektivního/bijektivního zobrazení a okomentujte.
+#### TODO
+###  Co je inverzní zobrazení a kdy existuje?
+- Inverzní zobrazení je zobrazení, které **"vrací"** původní hodnoty z obrázku zobrazení.
+1. **Injektivita (do):** Zobrazení musí být injektivní *(do)*. To znamená, že různým prvkům z $A$ jsou přiřazeny různé prvky v $B$. Pokud by existovaly dva různé prvky $a_1$​ a $a_2$​ v $A$ tak, že $f(a_1)=f(a_2)$, inverzní zobrazení by nebylo jednoznačně definováno.
+    
+2. **Surjektivita (na):** Zobrazení musí být surjektivní *(na)*. To znamená, že každý prvek v $B$ má alespoň jednoho předchůdce v $A$. Pokud některé prvky v $B$ nemají předchůdce, inverzní zobrazení nemůže být jednoznačně definováno pro všechny prvky v $B$.
+### Definujte bijektivní zobrazení. Nakreslete příklad.
+- Bijektivní zobrazení je speciální typ zobrazení mezi dvěma množinami, které je jak injektivní *(do)*, tak surjektivní *(na)*. Jinými slovy, bijektivní zobrazení zachovává jedinečnost prvků a zároveň obsahuje všechny prvky z množiny obrázku *(cílové množiny)*.
 
 ## Logika a indukce
 1. Co je výrok a pravdivostní ohodnocení?
