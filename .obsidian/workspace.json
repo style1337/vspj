@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/Ústní zkouška z DS.md",
+                "file": "1. semestr/Diskrétní strukůry/Test 3.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/Ústní zkouška z DS.md",
+                "file": "1. semestr/Diskrétní strukůry/Test 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/Ústní zkouška z DS.md"
+                "file": "1. semestr/Diskrétní strukůry/Test 3.md"
               }
             }
           },
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/Ústní zkouška z DS.md",
+                "file": "1. semestr/Diskrétní strukůry/Test 3.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,6 +161,7 @@
   "active": "5d5001502a2e5720",
   "lastOpenFiles": [
     "Vysoká škola polytechnická Jihlava.md",
+    "1. semestr/Diskrétní strukůry/Test 3.md",
     "1. semestr/Diskrétní strukůry/Ústní zkouška z DS.md",
     "1. semestr/Diskrétní strukůry/DS.md",
     "3. semestr/Řízení softwarových projektů/Untitled.md",
@@ -201,7 +202,6 @@
     "3. semestr/Programovaní v Java/PJ.md",
     "3. semestr/Webové technologie/WT.md",
     "img",
-    "2. semestr/st_grafy/Statistika pro techinky.md",
     "3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí",
     "3. semestr/Matematický seminář",
     "1. semestr/Matematika",
