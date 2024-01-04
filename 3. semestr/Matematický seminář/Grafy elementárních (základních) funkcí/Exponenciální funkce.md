@@ -1,3 +1,4 @@
+
 - Exponenciální funkce je taková funkce, která má **neznámou na místě exponentu**
 - Exponenciální funkce $f$ má tvar
 $$f(x)=a^{x},a \in R, a > 0, a \ne 1$$

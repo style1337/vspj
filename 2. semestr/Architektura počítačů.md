@@ -1,4 +1,4 @@
-----
+
 ## (cv 8) Periférie počítačů - vstupní zařízení - základní pricipy a funkce, Úvod do programování mikroprocesorů AVR
 
 Tento kód ovládá sérii osmi LED diod pomocí spínače. Po spuštění programu vstoupí do funkce `setup()`, která nastaví piny LED diod jako výstupy a pin spínače jako vstup s interním pull-up rezistorem.
