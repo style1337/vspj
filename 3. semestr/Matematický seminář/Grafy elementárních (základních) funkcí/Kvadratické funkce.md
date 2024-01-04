@@ -1,4 +1,4 @@
-- Kvadratická funkce je taková funkce, kterou lze vyjádřit předpisem $f(x) = ax^2+bx+c$, kde $a,b,c$ jsou reálná čísla a dále $a≠0$. 
+ Kvadratická funkce je taková funkce, kterou lze vyjádřit předpisem $f(x) = ax^2+bx+c$, kde $a,b,c$ jsou reálná čísla a dále $a≠0$. 
 - Kvadratická funkce je zase vždy popsána **parabolou**.
 
 ## Vlastnosti kvadratické funkce

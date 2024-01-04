@@ -1,4 +1,4 @@
-- Linearní funkce je každá funkce, která je dána předpisem $y = ax+b$ kde $a$ a $b$ jsou reální čísla.
+ Linearní funkce je každá funkce, která je dána předpisem $y = ax+b$ kde $a$ a $b$ jsou reální čísla.
 - Zvláštní případ lineární funkce nastává, pokud se $a = 0$, neboť předchozí zápis můžeme zkrátit takto: $y = b$, což je konstatní funkce *(některé zdroje kostatní funkci mezi funkce lineární nezapočítávají)*
 - Lineární funkce mají poměrně hezké grafy, neboť je vždy popisuje přímka
 

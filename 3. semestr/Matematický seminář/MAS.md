@@ -9,7 +9,7 @@
 ## Grafy elementárních (základních) funkcí
 ### [[3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Lineární funkce|Lineární funkce]]
 ### [[3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Kvadratické funkce|Kvadratické funkce]]
-### [[3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Lineárně lomené funkce|Lineárně lomené funkce]]
+### [[3. semestr/Matematický seminář/Lineárně lomené funkce|Lineárně lomené funkce]]
 ### [[3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Exponenciální funkce|Exponenciální funkce]]
 ### [[3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Logaritmické funkce|Logaritmické funkce]]
 ### [[3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Goniometrické funkce|Goniometrické funkce]]
