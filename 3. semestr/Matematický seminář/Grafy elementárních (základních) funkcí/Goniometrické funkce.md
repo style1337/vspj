@@ -1,3 +1,3 @@
 
-- Goniometrické funkce pracují s úhly trojúhelníku
+ Goniometrické funkce pracují s úhly trojúhelníku
 - 

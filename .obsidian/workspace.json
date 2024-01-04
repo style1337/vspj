@@ -11,12 +11,14 @@
             "id": "5d5001502a2e5720",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "3. semestr/Matematický seminář/Vzorce.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -88,7 +90,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. semestr/Matematický seminář/Vzorce.md",
+                "file": "Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. semestr/Matematický seminář/Vzorce.md"
+                "file": "Untitled.canvas"
               }
             }
           },
@@ -121,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. semestr/Matematický seminář/Vzorce.md",
+                "file": "Untitled.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,13 +162,15 @@
   },
   "active": "5d5001502a2e5720",
   "lastOpenFiles": [
-    "3. semestr/Matematický seminář/Poznámky.canvas",
-    "3. semestr/Matematický seminář/MAS.md",
     "3. semestr/Matematický seminář/Lineárně lomené funkce.md",
+    "Untitled.canvas",
     "3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Logaritmické funkce.md",
     "3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Lineární funkce.md",
     "3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Kvadratické funkce.md",
     "3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Goniometrické funkce.md",
+    "3. semestr/Matematický seminář/Vzorce.md",
+    "3. semestr/Matematický seminář/Poznámky.canvas",
+    "3. semestr/Matematický seminář/MAS.md",
     "3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Exponenciální funkce.md",
     "Vysoká škola polytechnická Jihlava.md",
     "2. semestr/Architektura počítačů.md",
@@ -187,7 +191,6 @@
     "img/podstrom.png",
     "3. semestr/Datové struktury a algoritmy/DSA.md",
     "img/strom.png",
-    "3. semestr/Matematický seminář/Vzorce.md",
     "1. semestr/Diskrétní strukůry/1.test",
     "1. semestr/Diskrétní strukůry/Untitled.canvas",
     "img/kvadraticka_funkce_graf.png",
