@@ -1,5 +1,4 @@
-
-- Jsou podobné [[3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Lineární funkce|Lineárním funkcím]] ale **"loméne"** nám napovídá, že v předpisu funkce bude zlomek.
+ Jsou podobné [[3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Lineární funkce|Lineárním funkcím]] ale **"loméne"** nám napovídá, že v předpisu funkce bude zlomek.
 - Lineární lomená funkce je podíl dvou lineárních funkcí
 $$y = \frac{ax+b}{xc+d}$$
 *kde, $a,b,c,d \in R$*

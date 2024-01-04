@@ -11,14 +11,12 @@
             "id": "5d5001502a2e5720",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "3. semestr/Matematický seminář/Lineárně lomené funkce.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -90,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "3. semestr/Matematický seminář/Lineárně lomené funkce.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "3. semestr/Matematický seminář/Lineárně lomené funkce.md"
               }
             }
           },
@@ -123,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "3. semestr/Matematický seminář/Lineárně lomené funkce.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,8 +160,8 @@
   },
   "active": "5d5001502a2e5720",
   "lastOpenFiles": [
-    "3. semestr/Matematický seminář/Lineárně lomené funkce.md",
     "Untitled.canvas",
+    "3. semestr/Matematický seminář/Lineárně lomené funkce.md",
     "3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Logaritmické funkce.md",
     "3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Lineární funkce.md",
     "3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí/Kvadratické funkce.md",
