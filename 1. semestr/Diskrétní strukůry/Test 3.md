@@ -6,9 +6,44 @@
 #### Bijektivní zobrazené
 - Bijektivní zobrazení je zobrazení, které je zároveň injektivní a surjektivní. Každý prvek ze zdrojové množiny má jedinečný obraz ve cílové množině a zároveň každý prvek ve cílové množině má alespoň jeden předobraz *(duplicitu)* ve zdrojové množině.
 #### Inverzní zobrazení
-## Část I: Množiny, relace, zobrazení
-1. Zvolte si tři libovolné čtyřprvkové množiny A,B,C tak, že $A \cup B \cap C$. Ukažte na nich, zda platí rovnost $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$.
 
+### DNF a CNF (téma úlohy 8)
+Disjunktivní normální forma *(DNF)* a konjunktivní normální forma *(CNF)* jsou dvě různé formy zápisu logických formulí, kde každá reprezentuje výraz ve formě **disjunkce** a **konjunkce** logických klauzulí, odpovídajících výrokovým proměnným a jejich negacím.
+
+1. **Disjunktivní normální forma (DNF):**
+    - DNF je forma, kde celá formule je zapsána jako disjunkce (OR) několika klauzulí.
+    - Každá klauzule může obsahovat výrokové proměnné nebo jejich negace, které jsou spojeny konjunkcí (AND).
+    - Příklad: $(a \land b) \lor (\neg c) \lor (d \land \neg e)$
+2. **Konjunktivní normální forma (CNF):**
+    - CNF je forma, kde celá formule je zapsána jako konjunkce (AND) několika klauzulí.
+    - Každá klauzule může obsahovat výrokové proměnné nebo jejich negace, které jsou spojeny disjunkcí (OR).
+    - Příklad: $(a \lor \neg b) \land (\neg c \lor d) \land (e \lor f \lor \neg g)$
+
+Oba tyto tvary jsou důležité při analýze logických formulí a mají své využití v teorii logiky, automatů, a při návrhu obvodů v informatice. Transformace logických formulí do DNF nebo CNF může usnadnit analýzu pravdivostních tabulek, optimalizaci obvodů a další operace.
+
+### Poznámky ke cvíčení 10
+| Operace | Symboly | Výraz | Význam | Čteme |
+| ---- | ---- | ---- | ---- | ---- |
+| Konjunkce | $\land$ | $A \land B$ | $A$, $B$ musí být 1 | Výrok $a$ *(zároveň)* výrok $q$ |
+| Disjunkce | $\lor$ | $A \lor B$ | $A$ nebo v $B$ musí být 1 | Výrok $a$ nebo výrok $q$ |
+| Negace | $\neg$ | $\neg A$ | Pravdivý, pokud $A$ je nepravdivé | Negace $a$ |
+| Implikace | $\Rightarrow$ | $A \Rightarrow B$ | Když $1 \Rightarrow 0$ tak je **nepravda**, jinak je to vždy pravdea | Jestliže výrok $a$, pak $q$ |
+| Ekvivalence | $\Leftrightarrow$ | $A \Leftrightarrow B$ | Pravdivý, pokud $A$ a $B$ mají stejné hodnoty | Výrok $p$ právě tehdy když výrok $q$ |
+| Obecný kvantifikátor | $\forall$ |  | Pro všechna |  |
+| Existeční kvantifikátor | $\exists$ |  | 	Existuje alespoň něco co pro něco platí. *(Alespoň jeden člověk)* |  |
+[Zdroj](https://www.youtube.com/watch?v=xAXw3c1VioU)
+#### Při negaci
+- Se obecný kvantifikátor mění na existeční:  $∀ \rightarrow ∃$
+- Se existeční kvantifikátor mění na obecný: $∃ \rightarrow ∀$
+
+### Huffmanovo kódování
+
+### Binární stromy
+[Zdroje](https://yongdanielliang.github.io/animation/web/BST.html)
+
+## Část I: Množiny, relace, zobrazení
+#### 1. Zvolte si tři libovolné čtyřprvkové množiny A,B,C tak, že $A \cup B \cap C$. Ukažte na nich, zda platí rovnost $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$.
+---
 $A=\{1,2,3,4\}$
 $B=\{5,6,7,8\}$
 $C=\{9,10,11,12\}$
@@ -18,14 +53,17 @@ $$A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$$
 $$A \cup (∅) = \{1,2,3,4,5,6,7,8\} \cap \{1,2,3,4,9,10,11,12\}$$
 $$\{1,2,3,4\} \cup (∅) = \{1,2,3,4\}$$
 $$\{1,2,3,4\} = \{1,2,3,4\}$$
-2. Najděte příklad zobrazení $f: ℕ \rightarrow ℕ$ pro které platí, že je bijektivní, ale není surjektivní (na)
+
+#### 2. Najděte příklad zobrazení $f: ℕ \rightarrow ℕ$ pro které platí, že je bijektivní, ale není surjektivní (na)
+---
 $$f(n)=2n$$
 - Zobrazení je bijektivní, protože je injektivní (různým číslům $n_1$ a $n_2$ jsou přiřazena různá čísla $2n_1$ a $2n_2$) a surjektivní (každé číslo $m$ je přiřazeno nějakým $n = \frac{m}{2}$).
 
 - Nicméně, toto zobrazení není surjektivní (na), protože některá čísla z oboru hodnot (např. lichá čísla) nemají žádný předobraz v oboru definičním (přirozená čísla).
 
-3. Jsou dány množiny $A = \{a, b, c, d\}$ a $B = \{b, c, d, e\}$. Dále je dáno zobrazení $f: A \rightarrow B$ takto: $f(a) = b$, $f(b) = c$, $f(c) = d$, $f(d) = d$. Určete, zda je zobrazení $f$ injektivní, surjektivní, bijektivní. Pokud je to možné, najděte inverzní zobrazení a určete jeho definiční obor. Pokud to možné není, zdůvodněte proč. 
 
+#### 3. Jsou dány množiny $A = \{a, b, c, d\}$ a $B = \{b, c, d, e\}$. Dále je dáno zobrazení $f: A \rightarrow B$ takto: $f(a) = b$, $f(b) = c$, $f(c) = d$, $f(d) = d$. Určete, zda je zobrazení $f$ injektivní, surjektivní, bijektivní. Pokud je to možné, najděte inverzní zobrazení a určete jeho definiční obor. Pokud to možné není, zdůvodněte proč. 
+----
 - **Injektivita (jednoznačnost):** Zobrazení je injektivní, pokud různým prvkům v $A$ přiřazuje různé prvky v $B$. 
 
 Podívejme se na pravidla zobrazení:
@@ -46,8 +84,9 @@ Podívejme se na obraz $B$ vytvořený zobrazením $f$:
 
 Celkově lze říci, že zobrazení $f$ je injektivní, ale není surjektivní ani bijektivní. Inverzní zobrazení neexistuje.
 
-. Mějme binární relaci $R$ na množině $ℕ$. Zobrazíme-li tuto relaci do kartézských souřadnic, dostaneme všechny body kromě diagonály *(osy 1. kvadrantu)*. Je tato relace ekvivalencí? Zdůvodněte a ukažte na příkladu.
 
+#### 4. Mějme binární relaci $R$ na množině $ℕ$. Zobrazíme-li tuto relaci do kartézských souřadnic, dostaneme všechny body kromě diagonály *(osy 1. kvadrantu)*. Je tato relace ekvivalencí? Zdůvodněte a ukažte na příkladu.
+---
 - Ekvivalence relace vyžaduje, aby byla splněna tři podmínky: **reflexivita**, **symetrie** a **tranzitivita**.
 1. **Reflexivita**: Relace $R$ je reflexivní, pokud pro každé $n \in ℕ$ platí $(n, n) \in R$. **To znamená, že všechny body na diagonále by měly být obsaženy v $R$.**
 
@@ -57,7 +96,9 @@ Celkově lze říci, že zobrazení $f$ je injektivní, ale není surjektivní a
 
 Pokud graf relace neobsahuje diagonálu, znamená to, že není reflexivní, a tedy není ekvivalencí.
 
-5. Mějme binární relaci $R$ na množině $A=\{1,2,3\}$ obsahující následující prvky:
+
+#### 5. Mějme binární relaci $R$ na množině $A=\{1,2,3\}$ obsahující následující prvky:
+---
 $R=\{(1,1), (1,2), (1,3), (2,2), (2,3), (3,3)\}$. Odebíráním či přidáváním prvků změňte relaci tak, aby byla symetrická, zdůvodněte.
 
 - Chceme relaci změnit tak, aby byla symetrická. Symetrická relace zahrnuje všechny dvojice $(a, b)$, pokud obsahuje $(b, a)$. Jedním způsobem, jak dosáhnout symetrie, je přidávat chybějící symetrické prvky.
@@ -72,22 +113,26 @@ Po těchto úpravách bude relace symetrická. Nová relace $R'$ bude vypadat ta
 $$R'=\{(1,1),(1,2),(1,3),(2,1),(2,2),(2,3),(3,1),(3,2),(3,3)\}$$
 
 Nyní je relace $R'$ symetrická, protože obsahuje všechny původní prvky $R$ a jejich symetrické páry.
+
+
 ## Část II: Výroková a predikátová logika
-1. Zjistěte pravdivostní hodnotu formule 
+#### 6. Zjistěte pravdivostní hodnotu formule 
 - $(\neg a ∨ b) \Leftrightarrow (a \Rightarrow b)$
 - $\exists x (x\neq z)$ přitom $x \in \{0,1\}$, $z \in \{0,1,2\}$
 
  Pravdivostní tabulk je jeden ze způsobů zápisu logických funkcí. Taková tabulka obsahuje pouze logické proměnné, které nejčastěji nabývají dvou hodnot **0** a **1** (nepravda a pravda, ne a ano).
 - $2^n$, $n$ je počet vstup *(to znamená třeba: a,b,c)*
 	- $2^3=8$ tedy 8 řádků
+#### 7. Negujte formule
+---
+- $(a \Rightarrow (( a \lor c) \Rightarrow b))$
+	$a \land ((a \lor c) \land \neg b)$
+- $\exists x [R(x) \land \neg Z(x)]$
+	$\forall x [\neg R(x) \lor Z(x)]$
 
-2. Negujte formule
-	- $(a \Rightarrow (( a \lor c) \Rightarrow b))$
-		$a \land ((a \lor c) \land \neg b)$
-	- $\exists x [R(x) \land \neg Z(x)]$
-		$\forall x [\neg R(x) \lor Z(x)]$
-3. Přeformulujte věty do formulí výrokového počtu a zjistěte, zda je věta pod čarou konsekventem (sémantickým důsledkem) vět nad čarou, zdůvodněte. (4 body)
 
+#### 8. Přeformulujte věty do formulí výrokového počtu a zjistěte, zda je věta pod čarou konsekventem (sémantickým důsledkem) vět nad čarou, zdůvodněte. (4 body)
+---
 - Vlakem jezdím jedině tehdy, pokud je náledí.
 - Není náledí. 
 -
@@ -109,4 +154,28 @@ Tedy věta pod čarou (Nejedu vlakem) je sémantickým důsledkem vět nad čaro
 
 **Zjišťujeme konsekvent**
 - **Konsekvent laijkcy.** Vezemem ty **předchozíi** řádky kde jsou **dve jedničky**, pokud jsou **dve jedničky v tom řádku** i u vysledné, tak poté **je to konsvekvent**
+#### 9. Zadanou formuli vyjádřete pravdivostní tabulkou a zapište ji v CNF. Formuli v CNF znegujte.
+$(\neg a \lor b) \Rightarrow (b XOR a)$
+
+#### 10. Pomocí uvedené interpretace zapište formule odpovídající výrokům. Vytvořené formule negujte a potom znegované formule vyjádřete přirozeným jazykem. 
+**Interpretace**: 
+- lidé
+- $S(x)$ – být slepý 
+- $H(x)$ – být hluchý
+- $D(x)$ – mít dobrý sluch
+- $b$ – Bob.
+
+1. Hluší lidé nebo lidé se špatným sluchem nemohou být slepí.
+	1. $\forall x [H(x) \lor \neg D(x)] \Rightarrow \neg S(x)$ 
+	2. **Negace**: $\exists x [H(x) \lor \neg D(x)] \land S(x)$
+2. Lidé jsou buď hluší nebo mají dobrý sluch nebo mají špatný sluch.
+	1. $\forall x [H(x) \lor D(x) \lor \neg D(x)]$
+	2. **Negace**: $\exists [H(x) \lor \neg D(x)] \land S(x)$
+3. Bob musí být hluchý i slepý.
+	1. $H(b) \land S(b)$
+	2. **Negace**: $\neg H(b) \lor S(b)$
+4. Jestli má Bob dobrý sluch, tak jsou všichni lidé hluší
+	1. $D(b) \Rightarrow ( \forall x H(x))$
+
+
 ## Část III: Teorie grafu

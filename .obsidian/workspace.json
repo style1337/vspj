@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/Test 3.md",
+                "file": "Vysoká škola polytechnická Jihlava.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -22,25 +22,6 @@
           }
         ],
         "stacked": true
-      },
-      {
-        "id": "6bac9ea914690ab5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4c9df2ae77535a42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. semestr/Diskrétní strukůry/1.test/1. test.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -91,8 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6b1352a6ff3bf6f",
@@ -108,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/Test 3.md",
+                "file": "Vysoká škola polytechnická Jihlava.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/Test 3.md"
+                "file": "Vysoká škola polytechnická Jihlava.md"
               }
             }
           },
@@ -141,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/Test 3.md",
+                "file": "Vysoká škola polytechnická Jihlava.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,8 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,9 +160,10 @@
   },
   "active": "5d5001502a2e5720",
   "lastOpenFiles": [
-    "1. semestr/Diskrétní strukůry/1.test/1. test.md",
-    "1. semestr/Diskrétní strukůry/Test 3.md",
+    "2. semestr/PTPS/PTPS_Praktická zkouška.md",
     "Vysoká škola polytechnická Jihlava.md",
+    "1. semestr/Diskrétní strukůry/Test 3.md",
+    "1. semestr/Diskrétní strukůry/1.test/1. test.md",
     "1. semestr/Diskrétní strukůry/Ústní zkouška z DS.md",
     "1. semestr/Diskrétní strukůry/DS.md",
     "3. semestr/Řízení softwarových projektů/Untitled.md",
@@ -221,7 +201,6 @@
     "3. semestr/Matematický seminář/Poznámky z hodin",
     "2. semestr/PTPS/Windows Server (PTPS).md",
     "3. semestr/Programovaní v Java/PJ.md",
-    "3. semestr/Webové technologie/WT.md",
     "img",
     "3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí",
     "3. semestr/Matematický seminář",
