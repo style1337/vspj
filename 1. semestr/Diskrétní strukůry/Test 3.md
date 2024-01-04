@@ -7,16 +7,16 @@
 - Bijektivní zobrazení je zobrazení, které je zároveň injektivní a surjektivní. Každý prvek ze zdrojové množiny má jedinečný obraz ve cílové množině a zároveň každý prvek ve cílové množině má alespoň jeden předobraz *(duplicitu)* ve zdrojové množině.
 #### Inverzní zobrazení
 ## Část I: Množiny, relace, zobrazení
-1. Zvolte si tři libovolné čtyřprvkové množiny A,B,C tak, že $A \bigcup B \bigcap C$. Ukažte na nich, zda platí rovnost $A \bigcup (B \bigcap C) = (A \bigcup B) \bigcap (A \bigcup C)$.
+1. Zvolte si tři libovolné čtyřprvkové množiny A,B,C tak, že $A \cup B \cap C$. Ukažte na nich, zda platí rovnost $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$.
 
 $A=\{1,2,3,4\}$
 $B=\{5,6,7,8\}$
 $C=\{9,10,11,12\}$
 
 **Dosadíme:**
-$$A \bigcup (B \bigcap C) = (A \bigcup B) \bigcap (A \bigcup C)$$
-$$A \bigcup (∅) = \{1,2,3,4,5,6,7,8\} \bigcap \{1,2,3,4,9,10,11,12\}$$
-$$\{1,2,3,4\} \bigcup (∅) = \{1,2,3,4\}$$
+$$A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$$
+$$A \cup (∅) = \{1,2,3,4,5,6,7,8\} \cap \{1,2,3,4,9,10,11,12\}$$
+$$\{1,2,3,4\} \cup (∅) = \{1,2,3,4\}$$
 $$\{1,2,3,4\} = \{1,2,3,4\}$$
 2. Najděte příklad zobrazení $f: ℕ \rightarrow ℕ$ pro které platí, že je bijektivní, ale není surjektivní (na)
 $$f(n)=2n$$
@@ -73,4 +73,40 @@ $$R'=\{(1,1),(1,2),(1,3),(2,1),(2,2),(2,3),(3,1),(3,2),(3,3)\}$$
 
 Nyní je relace $R'$ symetrická, protože obsahuje všechny původní prvky $R$ a jejich symetrické páry.
 ## Část II: Výroková a predikátová logika
+1. Zjistěte pravdivostní hodnotu formule 
+- $(\neg a ∨ b) \Leftrightarrow (a \Rightarrow b)$
+- $\exists x (x\neq z)$ přitom $x \in \{0,1\}$, $z \in \{0,1,2\}$
+
+ Pravdivostní tabulk je jeden ze způsobů zápisu logických funkcí. Taková tabulka obsahuje pouze logické proměnné, které nejčastěji nabývají dvou hodnot **0** a **1** (nepravda a pravda, ne a ano).
+- $2^n$, $n$ je počet vstup *(to znamená třeba: a,b,c)*
+	- $2^3=8$ tedy 8 řádků
+
+2. Negujte formule
+	- $(a \Rightarrow (( a \lor c) \Rightarrow b))$
+		$a \land ((a \lor c) \land \neg b)$
+	- $\exists x [R(x) \land \neg Z(x)]$
+		$\forall x [\neg R(x) \lor Z(x)]$
+3. Přeformulujte věty do formulí výrokového počtu a zjistěte, zda je věta pod čarou konsekventem (sémantickým důsledkem) vět nad čarou, zdůvodněte. (4 body)
+
+- Vlakem jezdím jedině tehdy, pokud je náledí.
+- Není náledí. 
+-
+- Nejedu vlakem.
+  
+$P$: Jedu vlakem.
+$Q$: Je náledí.
+
+- $P \rightarrow Q$ *(Vlakem jezdím jedině tehdy, pokud je náledí)*.
+- $\neg Q$ *(Není náledí)*.
+Věta pod čarou:
+- $\neg P$ *(Nejedu vlakem)*.
+
+$\{P \rightarrow Q,\neg Q\}$ je konsekventní, protože existuje model, kde obě věty nad čarou mohou být pravdivé zároveň.
+
+Uvažme model, kde $P$ není pravdivé *(nejezdím vlakem)* a $Q$ není pravdivé *(není náledí)*. Tento model splňuje obě věty nad čarou, ale nesplňuje větu pod čarou.
+
+Tedy věta pod čarou (Nejedu vlakem) je sémantickým důsledkem vět nad čarou.
+
+**Zjišťujeme konsekvent**
+- **Konsekvent laijkcy.** Vezemem ty **předchozíi** řádky kde jsou **dve jedničky**, pokud jsou **dve jedničky v tom řádku** i u vysledné, tak poté **je to konsvekvent**
 ## Část III: Teorie grafu
