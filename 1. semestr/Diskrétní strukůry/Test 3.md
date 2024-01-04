@@ -11,6 +11,6 @@ $$A \bigcup (∅) = \{1,2,3,4,5,6,7,8\} \bigcap \{1,2,3,4,9,10,11,12\}$$
 $$\{1,2,3,4\} \bigcup (∅) = \{1,2,3,4\}$$
 $$\{1,2,3,4\} = \{1,2,3,4\}$$
 2. Najděte příklad zobrazení $f: ℕ \rightarrow ℕ$ pro které platí, že je bijektivní, ale není surjektivní (na)
-
+3. 
 ## Část II: Výroková a predikátová logika
 ## Část III: Teorie gra
