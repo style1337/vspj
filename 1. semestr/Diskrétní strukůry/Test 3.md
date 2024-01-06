@@ -1,33 +1,3 @@
-### Zobrazení (téma otázky 3)
-#### Injektivní
-- Injektivní zobrazení zajišťuje, že každý prvek ze zdrojové množiny má jedinečný obraz ve cílové množině. Jinými slovy, žádné dva různé prvky ze zdrojové množiny nemají stejný obraz
-#### Surjektivní
-- Surjektivní zobrazení zajišťuje, že každý prvek ve cílové množině má alespoň jeden předobraz *(duplicity)* ve zdrojové množině. To znamená, že zobrazení pokrývá celou cílovou množinu.
-#### Bijektivní zobrazené
-- Bijektivní zobrazení je zobrazení, které je zároveň injektivní a surjektivní. Každý prvek ze zdrojové množiny má jedinečný obraz ve cílové množině a zároveň každý prvek ve cílové množině má alespoň jeden předobraz *(duplicitu)* ve zdrojové množině.
-#### Inverzní zobrazení
-
-
-### Poznámky ke cvíčení 10
-| Operace | Symboly | Výraz | Význam | Čteme |
-| ---- | ---- | ---- | ---- | ---- |
-| Konjunkce | $\land$ | $A \land B$ | $A$, $B$ musí být 1 | Výrok $a$ *(zároveň)* výrok $q$ |
-| Disjunkce | $\lor$ | $A \lor B$ | $A$ nebo v $B$ musí být 1 | Výrok $a$ nebo výrok $q$ |
-| Negace | $\neg$ | $\neg A$ | Pravdivý, pokud $A$ je nepravdivé | Negace $a$ |
-| Implikace | $\Rightarrow$ | $A \Rightarrow B$ | Když $1 \Rightarrow 0$ tak je **nepravda**, jinak je to vždy pravdea | Jestliže výrok $a$, pak $q$ |
-| Ekvivalence | $\Leftrightarrow$ | $A \Leftrightarrow B$ | Pravdivý, pokud $A$ a $B$ mají stejné hodnoty | Výrok $p$ právě tehdy když výrok $q$ |
-| Obecný kvantifikátor | $\forall$ |  | Pro všechna |  |
-| Existeční kvantifikátor | $\exists$ |  | 	Existuje alespoň něco co pro něco platí. *(Alespoň jeden člověk)* |  |
-[Zdroj](https://www.youtube.com/watch?v=xAXw3c1VioU)
-#### Při negaci
-- Se obecný kvantifikátor mění na existeční:  $∀ \rightarrow ∃$
-- Se existeční kvantifikátor mění na obecný: $∃ \rightarrow ∀$
-
-### Huffmanovo kódování
-
-### Binární stromy
-[Zdroje](https://yongdanielliang.github.io/animation/web/BST.html)
-
 ## Část I: Množiny, relace, zobrazení
 #### 1. Zvolte si tři libovolné čtyřprvkové množiny A,B,C tak, že $A \cup B \cap C$. Ukažte na nich, zda platí rovnost $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$.
 ---
@@ -72,6 +42,14 @@ Podívejme se na obraz $B$ vytvořený zobrazením $f$:
 - **Inverzní zobrazení:** Zobrazení $f$ není bijektivní, takže nemá inverzní zobrazení.
 
 Celkově lze říci, že zobrazení $f$ je injektivní, ale není surjektivní ani bijektivní. Inverzní zobrazení neexistuje.
+
+##### Injektivní
+- Injektivní zobrazení zajišťuje, že každý prvek ze zdrojové množiny má jedinečný obraz ve cílové množině. Jinými slovy, žádné dva různé prvky ze zdrojové množiny nemají stejný obraz
+##### Surjektivní
+- Surjektivní zobrazení zajišťuje, že každý prvek ve cílové množině má alespoň jeden předobraz *(duplicity)* ve zdrojové množině. To znamená, že zobrazení pokrývá celou cílovou množinu.
+##### Bijektivní zobrazené
+- Bijektivní zobrazení je zobrazení, které je zároveň injektivní a surjektivní. Každý prvek ze zdrojové množiny má jedinečný obraz ve cílové množině a zároveň každý prvek ve cílové množině má alespoň jeden předobraz *(duplicitu)* ve zdrojové množině.
+##### Inverzní zobrazení
 
 #### 4. Mějme binární relaci $R$ na množině $ℕ$. Zobrazíme-li tuto relaci do kartézských souřadnic, dostaneme všechny body kromě diagonály *(osy 1. kvadrantu)*. Je tato relace ekvivalencí? Zdůvodněte a ukažte na příkladu.
 ---
@@ -183,10 +161,25 @@ Oba tyto tvary jsou důležité při analýze logických formulí a mají své v
 	1. $D(b) \Rightarrow ( \forall x H(x))$
 
 
+| Operace | Symboly | Výraz | Význam | Čteme |
+| ---- | ---- | ---- | ---- | ---- |
+| Konjunkce | $\land$ | $A \land B$ | $A$, $B$ musí být 1 | Výrok $a$ *(zároveň)* výrok $q$ |
+| Disjunkce | $\lor$ | $A \lor B$ | $A$ nebo v $B$ musí být 1 | Výrok $a$ nebo výrok $q$ |
+| Negace | $\neg$ | $\neg A$ | Pravdivý, pokud $A$ je nepravdivé | Negace $a$ |
+| Implikace | $\Rightarrow$ | $A \Rightarrow B$ | Když $1 \Rightarrow 0$ tak je **nepravda**, jinak je to vždy pravdea | Jestliže výrok $a$, pak $q$ |
+| Ekvivalence | $\Leftrightarrow$ | $A \Leftrightarrow B$ | Pravdivý, pokud $A$ a $B$ mají stejné hodnoty | Výrok $p$ právě tehdy když výrok $q$ |
+| Obecný kvantifikátor | $\forall$ |  | Pro všechna |  |
+| Existeční kvantifikátor | $\exists$ |  | 	Existuje alespoň něco co pro něco platí. *(Alespoň jeden člověk)* |  |
+[Zdroj](https://www.youtube.com/watch?v=xAXw3c1VioU)
+##### Při negaci
+- Se obecný kvantifikátor mění na existeční:  $∀ \rightarrow ∃$
+- Se existeční kvantifikátor mění na obecný: $∃ \rightarrow ∀$
+
 ## Část III: Teorie grafu
-#### Mějme graf na obrázku
+#### 11. Mějme graf na obrázku
+---
 ![[img/teorie_grafu.png]]
-##### Najděte minimální kostru. Použijte Jarníkův-Primův algoritmus, řešte tak, aby bylo vidět, jak algoritmus pracuje
+##### 11.1. Najděte minimální kostru. Použijte Jarníkův-Primův algoritmus, řešte tak, aby bylo vidět, jak algoritmus pracuje
 
 - Použít [Jarníkův-Primův algoritmus](https://cs.wikipedia.org/wiki/Jarn%C3%ADk%C5%AFv_algoritmus)
 - Pro každy krok nakreslit jiny obrazek
@@ -198,11 +191,20 @@ Oba tyto tvary jsou důležité při analýze logických formulí a mají své v
 
 [Správné a detailnější řešení je zde](https://cs.wikipedia.org/wiki/Jarn%C3%ADk%C5%AFv_algoritmus)
 
-##### Najděte systém nejkratších cest z uzlu E do všech uzlů. Použijte Dijkstrův algoritmus, řešte tak, aby bylo vidět, jak algoritmus pracuje
+##### 11.2. Najděte systém nejkratších cest z uzlu E do všech uzlů. Použijte Dijkstrův algoritmus, řešte tak, aby bylo vidět, jak algoritmus pracuje
 [Zde](https://www.youtube.com/watch?v=J8Cce722fkY)
 
+#### 12. Uvažujme následující zobecnění systematického průchodu binárním stromem T (symboly L(T), resp. R(T) označují levý, resp. pravý podstrom stromu T):
+---
+1. ()-inorder: vypiš znak ( tj. levou závorku, projdi L(T), vypiš kořen, projdi P(T),
+vypiš znak ) tj. pravou závorku
+2. ()-postorder: vypiš znak ( tj. levou závorku, projdi L(T), projdi P(T), vypiš kořen,
+vypiš znak ) tj. pravou závorku
+Projděte oběma způsoby níže uvedený strom.
 
-#### Mějme libovolný úplný symetricky orientovaný graf. Jak bude vypadat jeho kondenzace? Zdůvodněte
+![[img/Pasted image 20240106195001.png]]
+#### 13. Mějme libovolný úplný symetricky orientovaný graf. Jak bude vypadat jeho kondenzace? Zdůvodněte
+---
 
 - kondenzace bude tvořena jediným uzlem, protože úplný sym. orientovaný graf je celý silněsouvislý (je celý jednou silnou komponentou), z níž pak kondenzací vznikne onen uzel
 
@@ -210,3 +212,8 @@ Oba tyto tvary jsou důležité při analýze logických formulí a mají své v
 
 ##### Když by náhodou byl nesymetrický
 - Celkově lze říci, že kondenzace nesymetrického grafu bude reflektovat strukturu silně souvislých komponent v původním grafu.
+
+
+#### Nebylo v testu ale
+##### Bylo v testu 4.1.2023
+###### Huffmanovo kódování
