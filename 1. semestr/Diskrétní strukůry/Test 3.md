@@ -179,3 +179,7 @@ $(\neg a \lor b) \Rightarrow (b XOR a)$
 
 
 ## Část III: Teorie grafu
+#### Mějme graf na obrázku
+![[img/teorie_grafu.png]]
+##### Najděte minimální kostru. Použijte Jarníkův-Primův algoritmus, řešte tak, aby bylo vidět, jak algoritmus pracuje
+##### Najděte systém nejkratších cest z uzlu E do všech uzlů. Použijte Dijkstrův algoritmus, řešte tak, aby bylo vidět, jak algoritmus pracuje
