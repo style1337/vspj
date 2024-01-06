@@ -182,4 +182,14 @@ $(\neg a \lor b) \Rightarrow (b XOR a)$
 #### Mějme graf na obrázku
 ![[img/teorie_grafu.png]]
 ##### Najděte minimální kostru. Použijte Jarníkův-Primův algoritmus, řešte tak, aby bylo vidět, jak algoritmus pracuje
+
+- Použít [Jarníkův-Primův algoritmus](https://cs.wikipedia.org/wiki/Jarn%C3%ADk%C5%AFv_algoritmus)
+- Pro každy krok nakreslit jiny obrazek
+- hledani *(začínání)* odkudkoliv
+	- Začiname tu s menší hodnotou
+- začneme s jednou bodu a vytvařime část kostry – v dalším kroku zkoumáme sousedy a vždy přidame ten s **nejmenší vzdalenosti**
+- zkoumáme všechny sousedy, ale davat hrany pokud byla použita už nemůžeme – **neuzavíráme oblouk**
+- **vždy zkoumáme všechny uzlíky**
+
+[Správné a detailnější řešení je zde](
 ##### Najděte systém nejkratších cest z uzlu E do všech uzlů. Použijte Dijkstrův algoritmus, řešte tak, aby bylo vidět, jak algoritmus pracuje
