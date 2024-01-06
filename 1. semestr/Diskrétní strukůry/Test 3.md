@@ -186,10 +186,18 @@ $(\neg a \lor b) \Rightarrow (b XOR a)$
 - Použít [Jarníkův-Primův algoritmus](https://cs.wikipedia.org/wiki/Jarn%C3%ADk%C5%AFv_algoritmus)
 - Pro každy krok nakreslit jiny obrazek
 - hledani *(začínání)* odkudkoliv
-	- Začiname tu s menší hodnotou
+	- Postupujeme v grafu po nejmenších hodnotách
 - začneme s jednou bodu a vytvařime část kostry – v dalším kroku zkoumáme sousedy a vždy přidame ten s **nejmenší vzdalenosti**
 - zkoumáme všechny sousedy, ale davat hrany pokud byla použita už nemůžeme – **neuzavíráme oblouk**
 - **vždy zkoumáme všechny uzlíky**
 
-[Správné a detailnější řešení je zde](
+[Správné a detailnější řešení je zde](https://cs.wikipedia.org/wiki/Jarn%C3%ADk%C5%AFv_algoritmus)
+
 ##### Najděte systém nejkratších cest z uzlu E do všech uzlů. Použijte Dijkstrův algoritmus, řešte tak, aby bylo vidět, jak algoritmus pracuje
+
+
+#### Mějme libovolný úplný symetricky orientovaný graf. Jak bude vypadat jeho kondenzace? Zdůvodněte
+
+- kondenzace bude tvořena jediným uzlem, protože úplný sym. orientovaný graf je celý silněsouvislý (je celý jednou silnou komponentou), z níž pak kondenzací vznikne onen uzel
+
+- Kondenzace, je souvisla komponenta, když je tvořena jedním uzlem
