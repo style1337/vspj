@@ -7,19 +7,6 @@
 - Bijektivní zobrazení je zobrazení, které je zároveň injektivní a surjektivní. Každý prvek ze zdrojové množiny má jedinečný obraz ve cílové množině a zároveň každý prvek ve cílové množině má alespoň jeden předobraz *(duplicitu)* ve zdrojové množině.
 #### Inverzní zobrazení
 
-### DNF a CNF (téma úlohy 8)
-Disjunktivní normální forma *(DNF)* a konjunktivní normální forma *(CNF)* jsou dvě různé formy zápisu logických formulí, kde každá reprezentuje výraz ve formě **disjunkce** a **konjunkce** logických klauzulí, odpovídajících výrokovým proměnným a jejich negacím.
-
-1. **Disjunktivní normální forma (DNF):**
-    - DNF je forma, kde celá formule je zapsána jako disjunkce (OR) několika klauzulí.
-    - Každá klauzule může obsahovat výrokové proměnné nebo jejich negace, které jsou spojeny konjunkcí (AND).
-    - Příklad: $(a \land b) \lor (\neg c) \lor (d \land \neg e)$
-2. **Konjunktivní normální forma (CNF):**
-    - CNF je forma, kde celá formule je zapsána jako konjunkce (AND) několika klauzulí.
-    - Každá klauzule může obsahovat výrokové proměnné nebo jejich negace, které jsou spojeny disjunkcí (OR).
-    - Příklad: $(a \lor \neg b) \land (\neg c \lor d) \land (e \lor f \lor \neg g)$
-
-Oba tyto tvary jsou důležité při analýze logických formulí a mají své využití v teorii logiky, automatů, a při návrhu obvodů v informatice. Transformace logických formulí do DNF nebo CNF může usnadnit analýzu pravdivostních tabulek, optimalizaci obvodů a další operace.
 
 ### Poznámky ke cvíčení 10
 | Operace | Symboly | Výraz | Význam | Čteme |
@@ -66,6 +53,8 @@ $$f(n)=2n$$
 ----
 - **Injektivita (jednoznačnost):** Zobrazení je injektivní, pokud různým prvkům v $A$ přiřazuje různé prvky v $B$. 
 
+- Definiční obor je $A$ a v případě inverzního zobrazení to je cílová množina, takže $B$
+
 Podívejme se na pravidla zobrazení:
    - $f(a)=bf(a)=b$
    - $f(b)=cf(b)=c$
@@ -84,7 +73,6 @@ Podívejme se na obraz $B$ vytvořený zobrazením $f$:
 
 Celkově lze říci, že zobrazení $f$ je injektivní, ale není surjektivní ani bijektivní. Inverzní zobrazení neexistuje.
 
-
 #### 4. Mějme binární relaci $R$ na množině $ℕ$. Zobrazíme-li tuto relaci do kartézských souřadnic, dostaneme všechny body kromě diagonály *(osy 1. kvadrantu)*. Je tato relace ekvivalencí? Zdůvodněte a ukažte na příkladu.
 ---
 - Ekvivalence relace vyžaduje, aby byla splněna tři podmínky: **reflexivita**, **symetrie** a **tranzitivita**.
@@ -97,10 +85,8 @@ Celkově lze říci, že zobrazení $f$ je injektivní, ale není surjektivní a
 Pokud graf relace neobsahuje diagonálu, znamená to, že není reflexivní, a tedy není ekvivalencí.
 
 
-#### 5. Mějme binární relaci $R$ na množině $A=\{1,2,3\}$ obsahující následující prvky:
+#### 5. Mějme binární relaci $R$ na množině $A=\{1,2,3\}$ obsahující následující prvky: $R=\{(1,1), (1,2), (1,3), (2,2), (2,3), (3,3)\}$. Odebíráním či přidáváním prvků změňte relaci tak, aby byla symetrická, zdůvodněte.
 ---
-$R=\{(1,1), (1,2), (1,3), (2,2), (2,3), (3,3)\}$. Odebíráním či přidáváním prvků změňte relaci tak, aby byla symetrická, zdůvodněte.
-
 - Chceme relaci změnit tak, aby byla symetrická. Symetrická relace zahrnuje všechny dvojice $(a, b)$, pokud obsahuje $(b, a)$. Jedním způsobem, jak dosáhnout symetrie, je přidávat chybějící symetrické prvky.
 
 - Zjistíme, které prvky chybí v relaci. Pro každý prvek $(a, b)$ v relaci $R$, pokud $(b, a)$ není součástí relace, přidáme ho
@@ -117,21 +103,24 @@ Nyní je relace $R'$ symetrická, protože obsahuje všechny původní prvky $R$
 
 ## Část II: Výroková a predikátová logika
 #### 6. Zjistěte pravdivostní hodnotu formule 
+---
 - $(\neg a ∨ b) \Leftrightarrow (a \Rightarrow b)$
 - $\exists x (x\neq z)$ přitom $x \in \{0,1\}$, $z \in \{0,1,2\}$
 
- Pravdivostní tabulk je jeden ze způsobů zápisu logických funkcí. Taková tabulka obsahuje pouze logické proměnné, které nejčastěji nabývají dvou hodnot **0** a **1** (nepravda a pravda, ne a ano).
+- Pravdivostní hodnota formule se zjišťuje podle pravdivostní tabulky
+
+ Pravdivostní tabulka je jeden ze způsobů zápisu logických funkcí. Taková tabulka obsahuje pouze logické proměnné, které nejčastěji nabývají dvou hodnot **0** a **1** (nepravda a pravda, ne a ano).
 - $2^n$, $n$ je počet vstup *(to znamená třeba: a,b,c)*
 	- $2^3=8$ tedy 8 řádků
 #### 7. Negujte formule
 ---
 - $(a \Rightarrow (( a \lor c) \Rightarrow b))$
-	$a \land ((a \lor c) \land \neg b)$
+	Negace: $a \land ((a \lor c) \land \neg b)$
 - $\exists x [R(x) \land \neg Z(x)]$
-	$\forall x [\neg R(x) \lor Z(x)]$
+	Negace: $\forall x [\neg R(x) \lor Z(x)]$
 
 
-#### 8. Přeformulujte věty do formulí výrokového počtu a zjistěte, zda je věta pod čarou konsekventem (sémantickým důsledkem) vět nad čarou, zdůvodněte. (4 body)
+#### 8. Přeformulujte věty do formulí výrokového počtu a zjistěte, zda je věta pod čarou konsekventem *(sémantickým důsledkem)* vět nad čarou, zdůvodněte. (4 body)
 ---
 - Vlakem jezdím jedině tehdy, pokud je náledí.
 - Není náledí. 
@@ -155,9 +144,25 @@ Tedy věta pod čarou (Nejedu vlakem) je sémantickým důsledkem vět nad čaro
 **Zjišťujeme konsekvent**
 - **Konsekvent laijkcy.** Vezemem ty **předchozíi** řádky kde jsou **dve jedničky**, pokud jsou **dve jedničky v tom řádku** i u vysledné, tak poté **je to konsvekvent**
 #### 9. Zadanou formuli vyjádřete pravdivostní tabulkou a zapište ji v CNF. Formuli v CNF znegujte.
+---
 $(\neg a \lor b) \Rightarrow (b XOR a)$
 
+##### DNF a CNF
+Disjunktivní normální forma *(DNF)* a konjunktivní normální forma *(CNF)* jsou dvě různé formy zápisu logických formulí, kde každá reprezentuje výraz ve formě **disjunkce** a **konjunkce** logických klauzulí, odpovídajících výrokovým proměnným a jejich negacím.
+
+1. **Disjunktivní normální forma (DNF):**
+    - DNF je forma, kde celá formule je zapsána jako disjunkce (OR) několika klauzulí.
+    - Každá klauzule může obsahovat výrokové proměnné nebo jejich negace, které jsou spojeny konjunkcí (AND).
+    - Příklad: $(a \land b) \lor (\neg c) \lor (d \land \neg e)$
+2. **Konjunktivní normální forma (CNF):**
+    - CNF je forma, kde celá formule je zapsána jako konjunkce (AND) několika klauzulí.
+    - Každá klauzule může obsahovat výrokové proměnné nebo jejich negace, které jsou spojeny disjunkcí (OR).
+    - Příklad: $(a \lor \neg b) \land (\neg c \lor d) \land (e \lor f \lor \neg g)$
+
+Oba tyto tvary jsou důležité při analýze logických formulí a mají své využití v teorii logiky, automatů, a při návrhu obvodů v informatice. Transformace logických formulí do DNF nebo CNF může usnadnit analýzu pravdivostních tabulek, optimalizaci obvodů a další operace.
+
 #### 10. Pomocí uvedené interpretace zapište formule odpovídající výrokům. Vytvořené formule negujte a potom znegované formule vyjádřete přirozeným jazykem. 
+---
 **Interpretace**: 
 - lidé
 - $S(x)$ – být slepý 
