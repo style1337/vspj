@@ -13,11 +13,15 @@ $$\{1,2,3,4\} = \{1,2,3,4\}$$
 
 #### 2. Najděte příklad zobrazení $f: ℕ \rightarrow ℕ$ pro které platí, že je bijektivní, ale není surjektivní (na)
 ---
-$$f(n)=2n$$
-- Zobrazení je bijektivní, protože je injektivní (různým číslům $n_1$ a $n_2$ jsou přiřazena různá čísla $2n_1$ a $2n_2$) a surjektivní (každé číslo $m$ je přiřazeno nějakým $n = \frac{m}{2}$).
+1. **Bijektivní zobrazení:** To znamená, že každému prvku z oboru počátku (v tomto případě přirozená čísla $\mathbb{N}$) je přiřazen právě jeden prvek z oboru obrazu (také $\mathbb{N}$). Jinými slovy, žádné dvě různé čísla z oboru počátku nemají stejný obraz, a každé číslo z oboru obrazu má svůj původ v oboru počátku. A nastane když je injektivní a surjektivní zároveň.
 
-- Nicméně, toto zobrazení není surjektivní (na), protože některá čísla z oboru hodnot (např. lichá čísla) nemají žádný předobraz v oboru definičním (přirozená čísla).
+2. **Injektivní (nebo také "one-to-one"):** To znamená, že žádné dvě různé čísla z oboru počátku nemají stejný obraz. V našem případě, pokud $f(n_1) = f(n_2)$, pak $n_1$ musí být rovno $n_2$.
 
+3. **Surjektivní (nebo také "onto"):** To znamená, že každý prvek z oboru obrazu je dosažitelný, tedy existuje alespoň jeden prvek z oboru počátku, který má tento prvek jako obraz.
+
+Nyní k příkladu zobrazení $f: ℕ \rightarrow ℕ$:
+
+- Nejde udělat jelikož aby byl bijektivní tak musí nastat **surjektivita** a **injektivní**, zároveň.
 
 #### 3. Jsou dány množiny $A = \{a, b, c, d\}$ a $B = \{b, c, d, e\}$. Dále je dáno zobrazení $f: A \rightarrow B$ takto: $f(a) = b$, $f(b) = c$, $f(c) = d$, $f(d) = d$. Určete, zda je zobrazení $f$ injektivní, surjektivní, bijektivní. Pokud je to možné, najděte inverzní zobrazení a určete jeho definiční obor. Pokud to možné není, zdůvodněte proč. 
 ----
@@ -43,13 +47,18 @@ Podívejme se na obraz $B$ vytvořený zobrazením $f$:
 
 Celkově lze říci, že zobrazení $f$ je injektivní, ale není surjektivní ani bijektivní. Inverzní zobrazení neexistuje.
 
-##### Injektivní
-- Injektivní zobrazení zajišťuje, že každý prvek ze zdrojové množiny má jedinečný obraz ve cílové množině. Jinými slovy, žádné dva různé prvky ze zdrojové množiny nemají stejný obraz
-##### Surjektivní
-- Surjektivní zobrazení zajišťuje, že každý prvek ve cílové množině má alespoň jeden předobraz *(duplicity)* ve zdrojové množině. To znamená, že zobrazení pokrývá celou cílovou množinu.
+##### Injektivní (prosté)
+- **Prosté zobrazení**, nebo také **injektivní zobrazení**, **injekce**, **monomorfismus,** je druh [zobrazení](https://cs.wikipedia.org/wiki/Zobrazen%C3%AD_(matematika)) mezi [množinami](https://cs.wikipedia.org/wiki/Mno%C5%BEina), které různým vzorům ([prvkům](https://cs.wikipedia.org/wiki/Prvek_mno%C5%BEiny)) přiřazuje různé obrazy. Nestane se tedy, že by jeden obraz měl několik různých vzorů a jeden vzor více obrazů. K prostému zobrazení existuje [inverzní zobrazení](https://cs.wikipedia.org/wiki/Inverzn%C3%AD_zobrazen%C3%AD)
+![[img/Pasted image 20240106200434.png]]
+##### Surjektivní (zobrazení na)
+- Surjektivní zobrazení zajišťuje, že každý prvek ve cílové množině má alespoň jeden předobraz ve zdrojové množině. To znamená, že zobrazení pokrývá celou cílovou množinu.
+- **Zobrazení na**, nebo také **surjektivní zobrazení**, **surjekce**, **epimorfismus**, je druh zobrazení mezi množinami, které zobrazuje na celou cílovou množinu. Každý prvek cílové množiny má tedy alespoň jeden vzor. Tudíž [obor hodnot](https://cs.wikipedia.org/wiki/Obor_hodnot) je celá cílová množina.
+![[img/Pasted image 20240106200527.png]]
 ##### Bijektivní zobrazené
-- Bijektivní zobrazení je zobrazení, které je zároveň injektivní a surjektivní. Každý prvek ze zdrojové množiny má jedinečný obraz ve cílové množině a zároveň každý prvek ve cílové množině má alespoň jeden předobraz *(duplicitu)* ve zdrojové množině.
+- Bijektivní zobrazení je zobrazení, které je zároveň injektivní a surjektivní. Každý prvek ze zdrojové množiny má jedinečný obraz ve cílové množině a zároveň každý prvek ve cílové množině má alespoň jeden předobraz ve zdrojové množině.
+![[img/Pasted image 20240106200720.png]]
 ##### Inverzní zobrazení
+- Inverzní jde pouze k bijektivnímu zobrazení
 
 #### 4. Mějme binární relaci $R$ na množině $ℕ$. Zobrazíme-li tuto relaci do kartézských souřadnic, dostaneme všechny body kromě diagonály *(osy 1. kvadrantu)*. Je tato relace ekvivalencí? Zdůvodněte a ukažte na příkladu.
 ---
