@@ -194,6 +194,7 @@ $(\neg a \lor b) \Rightarrow (b XOR a)$
 [Správné a detailnější řešení je zde](https://cs.wikipedia.org/wiki/Jarn%C3%ADk%C5%AFv_algoritmus)
 
 ##### Najděte systém nejkratších cest z uzlu E do všech uzlů. Použijte Dijkstrův algoritmus, řešte tak, aby bylo vidět, jak algoritmus pracuje
+[Zde](https://www.youtube.com/watch?v=J8Cce722fkY)
 
 
 #### Mějme libovolný úplný symetricky orientovaný graf. Jak bude vypadat jeho kondenzace? Zdůvodněte
@@ -201,3 +202,6 @@ $(\neg a \lor b) \Rightarrow (b XOR a)$
 - kondenzace bude tvořena jediným uzlem, protože úplný sym. orientovaný graf je celý silněsouvislý (je celý jednou silnou komponentou), z níž pak kondenzací vznikne onen uzel
 
 - Kondenzace, je souvisla komponenta, když je tvořena jedním uzlem
+
+##### Když by náhodou byl nesymetrický
+- Celkově lze říci, že kondenzace nesymetrického grafu bude reflektovat strukturu silně souvislých komponent v původním grafu.
