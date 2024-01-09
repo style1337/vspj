@@ -118,7 +118,7 @@ Nyní je relace $R'$ symetrická, protože obsahuje všechny původní prvky $R$
 ---
 - Vlakem jezdím jedině tehdy, pokud je náledí.
 - Není náledí. 
--
+- čára
 - Nejedu vlakem.
   
 $P$: Jedu vlakem.
