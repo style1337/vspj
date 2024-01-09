@@ -267,6 +267,11 @@ Inorder, Preorder a Postorder jsou tři různé způsoby, jak procházet binárn
     - Projde levý podstrom.
     - Projde pravý podstrom.
     - Navštíví kořen.
+![[img/Pasted image 20240109161939.png]]
+- Vždy jdeme do **leva** a počítme kolikrát potkáme daný znak
+- U **Inorder**, zapisejeme při druhým potkání znaku
+- U **Preorder**, zapisujeme při prvním potkání znaku
+- U **Postorder**, zapisujeme při posledním potkání
 #### 13. Mějme libovolný úplný symetricky orientovaný graf. Jak bude vypadat jeho kondenzace? Zdůvodněte *(2 body)*
 ---
 
@@ -276,7 +281,7 @@ Inorder, Preorder a Postorder jsou tři různé způsoby, jak procházet binárn
 
 ##### Když by náhodou byl nesymetrický
 - Celkově lze říci, že kondenzace nesymetrického grafu bude reflektovat strukturu silně souvislých komponent v původním grafu.
-
+![[img/Pasted image 20240109162607.png]]
 
 
 #### Nebylo v testu ale

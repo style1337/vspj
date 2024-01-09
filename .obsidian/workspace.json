@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/Test 3.md",
+                "file": "1. semestr/Diskrétní strukůry/Ústní zkouška z DS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -72,8 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6b1352a6ff3bf6f",
@@ -89,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/Test 3.md",
+                "file": "1. semestr/Diskrétní strukůry/Ústní zkouška z DS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/Test 3.md"
+                "file": "1. semestr/Diskrétní strukůry/Ústní zkouška z DS.md"
               }
             }
           },
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/Test 3.md",
+                "file": "1. semestr/Diskrétní strukůry/Ústní zkouška z DS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,6 +161,9 @@
   },
   "active": "5d5001502a2e5720",
   "lastOpenFiles": [
+    "1. semestr/Diskrétní strukůry/Test 3.md",
+    "img/Pasted image 20240109162607.png",
+    "img/Pasted image 20240109161939.png",
     "img/Pasted image 20240109154355.png",
     "img/Pasted image 20240109153426.png",
     "img/Pasted image 20240109150129.png",
@@ -170,12 +172,8 @@
     "img/binarni_strom.png",
     "img/Pasted image 20230919131043.png",
     "img/Pasted image 20230919131036.png",
-    "1. semestr/Diskrétní strukůry/Test 3.md",
     "img/Pasted image 20240106200720.png",
-    "img/Pasted image 20240106200527.png",
-    "img/Pasted image 20240106200434.png",
     "1. semestr/Diskrétní strukůry/1.test/1. test.md",
-    "img/teorie_grafu.png",
     "1. semestr/Diskrétní strukůry/Ústní zkouška z DS.md",
     "1. semestr/Diskrétní strukůry/DS.md",
     "3. semestr/Datové struktury a algoritmy/DSA.md",
