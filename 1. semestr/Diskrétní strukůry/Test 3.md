@@ -154,19 +154,37 @@ Nejprve si připomenme, jak jsou definovány některé logické operátory:
 - $\land$ značí konjunkci (AND),
 - $\Rightarrow$ značí implikaci,
 - $\oplus$ značí XOR (exkluzivní nebo).
-##### DNF a CNF
-Disjunktivní normální forma *(DNF)* a konjunktivní normální forma *(CNF)* jsou dvě různé formy zápisu logických formulí, kde každá reprezentuje výraz ve formě **disjunkce** a **konjunkce** logických klauzulí, odpovídajících výrokovým proměnným a jejich negacím.
 
-1. **Disjunktivní normální forma (DNF):**
-    - DNF je forma, kde celá formule je zapsána jako disjunkce (OR) několika klauzulí.
-    - Každá klauzule může obsahovat výrokové proměnné nebo jejich negace, které jsou spojeny konjunkcí (AND).
-    - Příklad: $(a \land b) \lor (\neg c) \lor (d \land \neg e)$
-2. **Konjunktivní normální forma (CNF):**
-    - CNF je forma, kde celá formule je zapsána jako konjunkce (AND) několika klauzulí.
-    - Každá klauzule může obsahovat výrokové proměnné nebo jejich negace, které jsou spojeny disjunkcí (OR).
-    - Příklad: $(a \lor \neg b) \land (\neg c \lor d) \land (e \lor f \lor \neg g)$
+- Abychom mohli udělat **DNF** a **CNF** musíme si nejdříve udělat pravdivostní tabulku
+##### CNF 
+- Podívame se ve výsledku na všechny **0** 
+![[img/Pasted image 20240109154355.png]]
+- Hledáme jakékoliv kombinace $A$ a $B$ kde nám vznikla nula
+	- 0 = $\neg a$
+	- 1 = $a$
+	- Podle této teorie napíšu první dojci
+	  $(\neg a \lor \neg b)$
+	  A když bych chtěl přidat další dvojci tak je spojíme znaménkem **konjunkce** ($\lor$)
+	  $(\neg a \lor \neg b) \lor (a \lor b)$
 
-Oba tyto tvary jsou důležité při analýze logických formulí a mají své využití v teorii logiky, automatů, a při návrhu obvodů v informatice. Transformace logických formulí do DNF nebo CNF může usnadnit analýzu pravdivostních tabulek, optimalizaci obvodů a další operace.
+- Když negujeme **CNF**
+	- Tak jen vyměníme znaky konjunkce ($\lor$) za znaky disjunkce ($\land$)
+	- A znegujeme samostatné znaky $a$ a $b$
+
+##### DNF 
+- Podívame se ve výsledku na všechny **1** 
+![[img/Pasted image 20240109154355.png]]
+- Hledáme jakékoliv kombinace $A$ a $B$ kde nám vznikla jednička
+	- 0 = $\neg a$
+	- 1 = $a$
+	- Podle této teorie napíšu první dojci, ve vnitř závorky bude konjunkce ($\land$)
+	  $(\neg a \land b)$
+	  A když bych chtěl přidat další dvojci tak je spojíme znaménkem **disjunkce** ($\lor$)
+	  $(\neg a \land b) \lor ( a \land \neg b)$
+
+- Když negujeme **DNF**
+	- Tak jen vyměníme znaky disjunkce ($\lor$) za znaky konjunkce ($\land$)
+	- A znegujeme samostatné znaky $a$ a $b$
 
 #### 10. Pomocí uvedené interpretace zapište formule odpovídající výrokům. Vytvořené formule negujte a potom znegované formule vyjádřete přirozeným jazykem. *(6 bodů)*
 ---
@@ -182,7 +200,7 @@ Oba tyto tvary jsou důležité při analýze logických formulí a mají své v
 	2. **Negace**: $\exists x [H(x) \lor \neg D(x)] \land S(x)$
 2. Lidé jsou buď hluší nebo mají dobrý sluch nebo mají špatný sluch.
 	1. $\forall x [H(x) \lor D(x) \lor \neg D(x)]$
-	2. **Negace**: $\exists [H(x) \lor \neg D(x)] \land S(x)$
+	2. **Negace**: $\exists [H(x) \lor \neg D(x)] \land S(x)]$
 3. Bob musí být hluchý i slepý.
 	1. $H(b) \land S(b)$
 	2. **Negace**: $\neg H(b) \lor S(b)$
