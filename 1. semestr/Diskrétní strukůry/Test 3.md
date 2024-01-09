@@ -1,5 +1,5 @@
 ## Část I: Množiny, relace, zobrazení
-#### 1. Zvolte si tři libovolné čtyřprvkové množiny A,B,C tak, že $A \cup B \cap C$. Ukažte na nich, zda platí rovnost $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$.
+#### 1. Zvolte si tři libovolné čtyřprvkové množiny A,B,C tak, že $A \cup B \cap C$. Ukažte na nich, zda platí rovnost $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$. *(2 body)*
 ---
 $A=\{1,2,3,4\}$
 $B=\{5,6,7,8\}$
@@ -11,29 +11,36 @@ $$A \cup (∅) = \{1,2,3,4,5,6,7,8\} \cap \{1,2,3,4,9,10,11,12\}$$
 $$\{1,2,3,4\} \cup (∅) = \{1,2,3,4\}$$
 $$\{1,2,3,4\} = \{1,2,3,4\}$$
 
-#### 2. Najděte příklad zobrazení $f: ℕ \rightarrow ℕ$ pro které platí, že je bijektivní, ale není surjektivní (na)
+#### 2. Najděte příklad zobrazení $f: ℕ \rightarrow ℕ$ pro které platí, že je bijektivní, ale není surjektivní (na) *(4 body)*
 ---
-1. **Bijektivní zobrazení:** To znamená, že každému prvku z oboru počátku (v tomto případě přirozená čísla $\mathbb{N}$) je přiřazen právě jeden prvek z oboru obrazu (také $\mathbb{N}$). Jinými slovy, žádné dvě různé čísla z oboru počátku nemají stejný obraz, a každé číslo z oboru obrazu má svůj původ v oboru počátku. A nastane když je injektivní a surjektivní zároveň.
-
-2. **Injektivní (nebo také "one-to-one"):** To znamená, že žádné dvě různé čísla z oboru počátku nemají stejný obraz. V našem případě, pokud $f(n_1) = f(n_2)$, pak $n_1$ musí být rovno $n_2$.
-
-3. **Surjektivní (nebo také "onto"):** To znamená, že každý prvek z oboru obrazu je dosažitelný, tedy existuje alespoň jeden prvek z oboru počátku, který má tento prvek jako obraz.
+##### Injektivní (prosté)
+- **Prosté zobrazení**, nebo také **injektivní zobrazení**, **injekce**, **monomorfismus,** je druh [zobrazení](https://cs.wikipedia.org/wiki/Zobrazen%C3%AD_(matematika)) mezi [množinami](https://cs.wikipedia.org/wiki/Mno%C5%BEina), které různým vzorům ([prvkům](https://cs.wikipedia.org/wiki/Prvek_mno%C5%BEiny)) přiřazuje různé obrazy. Nestane se tedy, že by jeden obraz měl několik různých vzorů a jeden vzor více obrazů. K prostému zobrazení existuje [inverzní zobrazení](https://cs.wikipedia.org/wiki/Inverzn%C3%AD_zobrazen%C3%AD)
+![[img/Pasted image 20240106200434.png]]
+##### Surjektivní (zobrazení na)
+- Surjektivní zobrazení zajišťuje, že každý prvek ve cílové množině má alespoň jeden předobraz ve zdrojové množině. To znamená, že zobrazení pokrývá celou cílovou množinu.
+- **Zobrazení na**, nebo také **surjektivní zobrazení**, **surjekce**, **epimorfismus**, je druh zobrazení mezi množinami, které zobrazuje na celou cílovou množinu. Každý prvek cílové množiny má tedy alespoň jeden vzor. Tudíž [obor hodnot](https://cs.wikipedia.org/wiki/Obor_hodnot) je celá cílová množina.
+![[img/Pasted image 20240106200527.png]]
+##### Bijektivní zobrazené
+- Bijektivní zobrazení je zobrazení, které je zároveň injektivní a surjektivní. Každý prvek ze zdrojové množiny má jedinečný obraz ve cílové množině a zároveň každý prvek ve cílové množině má alespoň jeden předobraz ve zdrojové množině.
+![[img/Pasted image 20240106200720.png]]
+##### Inverzní zobrazení
+- Inverzní jde pouze k bijektivnímu zobrazení
 
 Nyní k příkladu zobrazení $f: ℕ \rightarrow ℕ$:
 
 - Nejde udělat jelikož aby byl bijektivní tak musí nastat **surjektivita** a **injektivní**, zároveň.
 
-#### 3. Jsou dány množiny $A = \{a, b, c, d\}$ a $B = \{b, c, d, e\}$. Dále je dáno zobrazení $f: A \rightarrow B$ takto: $f(a) = b$, $f(b) = c$, $f(c) = d$, $f(d) = d$. Určete, zda je zobrazení $f$ injektivní, surjektivní, bijektivní. Pokud je to možné, najděte inverzní zobrazení a určete jeho definiční obor. Pokud to možné není, zdůvodněte proč. 
+#### 3. Jsou dány množiny $A = \{a, b, c, d\}$ a $B = \{b, c, d, e\}$. Dále je dáno zobrazení $f: A \rightarrow B$ takto: $f(a) = b$, $f(b) = c$, $f(c) = d$, $f(d) = d$. Určete, zda je zobrazení $f$ injektivní, surjektivní, bijektivní. Pokud je to možné, najděte inverzní zobrazení a určete jeho definiční obor. Pokud to možné není, zdůvodněte proč. *(5 bodů)*
 ----
 - **Injektivita (jednoznačnost):** Zobrazení je injektivní, pokud různým prvkům v $A$ přiřazuje různé prvky v $B$. 
 
-- Definiční obor je $A$ a v případě inverzního zobrazení to je cílová množina, takže $B$
+- **Definiční obor** je $A$ a v případě inverzního zobrazení to je cílová množina, takže $B$
 
 Podívejme se na pravidla zobrazení:
-   - $f(a)=bf(a)=b$
-   - $f(b)=cf(b)=c$
-   - $f(c)=df(c)=d$
-   - $f(d)=df(d)=d$
+   - $f(a)=b$
+   - $f(b)=c$
+   - $f(c)=d$
+   - $f(d)=d$
 $d$ má dva vzory takže není **injektivní**
 
 - **Surjektivita (na):** Zobrazení je surjektivní, pokud každý prvek v $B$ má alespoň jednu předobraz v $A$. 
@@ -60,7 +67,7 @@ Celkově lze říci, že zobrazení $f$ je injektivní, ale není surjektivní a
 ##### Inverzní zobrazení
 - Inverzní jde pouze k bijektivnímu zobrazení
 
-#### 4. Mějme binární relaci $R$ na množině $ℕ$. Zobrazíme-li tuto relaci do kartézských souřadnic, dostaneme všechny body kromě diagonály *(osy 1. kvadrantu)*. Je tato relace ekvivalencí? Zdůvodněte a ukažte na příkladu.
+#### 4. Mějme binární relaci $R$ na množině $ℕ$. Zobrazíme-li tuto relaci do kartézských souřadnic, dostaneme všechny body kromě diagonály *(osy 1. kvadrantu)*. Je tato relace ekvivalencí? Zdůvodněte a ukažte na příkladu. *(5 bodů)*
 ---
 - Ekvivalence relace vyžaduje, aby byla splněna tři podmínky: **reflexivita**, **symetrie** a **tranzitivita**.
 1. **Reflexivita**: Relace $R$ je reflexivní, pokud pro každé $n \in ℕ$ platí $(n, n) \in R$. **To znamená, že všechny body na diagonále by měly být obsaženy v $R$.**
@@ -72,7 +79,7 @@ Celkově lze říci, že zobrazení $f$ je injektivní, ale není surjektivní a
 Pokud graf relace neobsahuje diagonálu, znamená to, že není reflexivní, a tedy není ekvivalencí.
 
 
-#### 5. Mějme binární relaci $R$ na množině $A=\{1,2,3\}$ obsahující následující prvky: $R=\{(1,1), (1,2), (1,3), (2,2), (2,3), (3,3)\}$. Odebíráním či přidáváním prvků změňte relaci tak, aby byla symetrická, zdůvodněte.
+#### 5. Mějme binární relaci $R$ na množině $A=\{1,2,3\}$ obsahující následující prvky: $R=\{(1,1), (1,2), (1,3), (2,2), (2,3), (3,3)\}$. Odebíráním či přidáváním prvků změňte relaci tak, aby byla symetrická, zdůvodněte. *(4 body)*
 ---
 - Chceme relaci změnit tak, aby byla symetrická. Symetrická relace zahrnuje všechny dvojice $(a, b)$, pokud obsahuje $(b, a)$. Jedním způsobem, jak dosáhnout symetrie, je přidávat chybějící symetrické prvky.
 
@@ -89,7 +96,7 @@ Nyní je relace $R'$ symetrická, protože obsahuje všechny původní prvky $R$
 
 
 ## Část II: Výroková a predikátová logika
-#### 6. Zjistěte pravdivostní hodnotu formule 
+#### 6. Zjistěte pravdivostní hodnotu formule *(2 body)*
 ---
 - $(\neg a ∨ b) \Leftrightarrow (a \Rightarrow b)$
 - $\exists x (x\neq z)$ přitom $x \in \{0,1\}$, $z \in \{0,1,2\}$
@@ -99,7 +106,7 @@ Nyní je relace $R'$ symetrická, protože obsahuje všechny původní prvky $R$
  Pravdivostní tabulka je jeden ze způsobů zápisu logických funkcí. Taková tabulka obsahuje pouze logické proměnné, které nejčastěji nabývají dvou hodnot **0** a **1** (nepravda a pravda, ne a ano).
 - $2^n$, $n$ je počet vstup *(to znamená třeba: a,b,c)*
 	- $2^3=8$ tedy 8 řádků
-#### 7. Negujte formule
+#### 7. Negujte formule *(4 body)*
 ---
 - $(a \Rightarrow (( a \lor c) \Rightarrow b))$
 	Negace: $a \land ((a \lor c) \land \neg b)$
@@ -130,7 +137,7 @@ Tedy věta pod čarou (Nejedu vlakem) je sémantickým důsledkem vět nad čaro
 
 **Zjišťujeme konsekvent**
 - **Konsekvent laijkcy.** Vezemem ty **předchozíi** řádky kde jsou **dve jedničky**, pokud jsou **dve jedničky v tom řádku** i u vysledné, tak poté **je to konsvekvent**
-#### 9. Zadanou formuli vyjádřete pravdivostní tabulkou a zapište ji v CNF. Formuli v CNF znegujte.
+#### 9. Zadanou formuli vyjádřete pravdivostní tabulkou a zapište ji v CNF. Formuli v CNF znegujte. *(4 body)*
 ---
 $(\neg a \lor b) \Rightarrow (b XOR a)$
 
@@ -148,7 +155,7 @@ Disjunktivní normální forma *(DNF)* a konjunktivní normální forma *(CNF)* 
 
 Oba tyto tvary jsou důležité při analýze logických formulí a mají své využití v teorii logiky, automatů, a při návrhu obvodů v informatice. Transformace logických formulí do DNF nebo CNF může usnadnit analýzu pravdivostních tabulek, optimalizaci obvodů a další operace.
 
-#### 10. Pomocí uvedené interpretace zapište formule odpovídající výrokům. Vytvořené formule negujte a potom znegované formule vyjádřete přirozeným jazykem. 
+#### 10. Pomocí uvedené interpretace zapište formule odpovídající výrokům. Vytvořené formule negujte a potom znegované formule vyjádřete přirozeným jazykem. *(6 bodů)*
 ---
 **Interpretace**: 
 - lidé
@@ -188,7 +195,7 @@ Oba tyto tvary jsou důležité při analýze logických formulí a mají své v
 #### 11. Mějme graf na obrázku
 ---
 ![[img/teorie_grafu.png]]
-##### 11.1. Najděte minimální kostru. Použijte Jarníkův-Primův algoritmus, řešte tak, aby bylo vidět, jak algoritmus pracuje
+##### 11.1. Najděte minimální kostru. Použijte Jarníkův-Primův algoritmus, řešte tak, aby bylo vidět, jak algoritmus pracuje *(6 bodů)*
 
 - Použít [Jarníkův-Primův algoritmus](https://cs.wikipedia.org/wiki/Jarn%C3%ADk%C5%AFv_algoritmus)
 - Pro každy krok nakreslit jiny obrazek
@@ -200,10 +207,10 @@ Oba tyto tvary jsou důležité při analýze logických formulí a mají své v
 
 [Správné a detailnější řešení je zde](https://cs.wikipedia.org/wiki/Jarn%C3%ADk%C5%AFv_algoritmus)
 
-##### 11.2. Najděte systém nejkratších cest z uzlu E do všech uzlů. Použijte Dijkstrův algoritmus, řešte tak, aby bylo vidět, jak algoritmus pracuje
+##### 11.2. Najděte systém nejkratších cest z uzlu E do všech uzlů. Použijte Dijkstrův algoritmus, řešte tak, aby bylo vidět, jak algoritmus pracuje *(6 bodů)*
 [Zde](https://www.youtube.com/watch?v=J8Cce722fkY)
 
-#### 12. Uvažujme následující zobecnění systematického průchodu binárním stromem T (symboly L(T), resp. R(T) označují levý, resp. pravý podstrom stromu T):
+#### 12. Uvažujme následující zobecnění systematického průchodu binárním stromem T (symboly L(T), resp. R(T) označují levý, resp. pravý podstrom stromu T): (6 body)
 ---
 1. ()-inorder: vypiš znak ( tj. levou závorku, projdi L(T), vypiš kořen, projdi P(T),
 vypiš znak ) tj. pravou závorku
@@ -212,7 +219,7 @@ vypiš znak ) tj. pravou závorku
 Projděte oběma způsoby níže uvedený strom.
 
 ![[img/Pasted image 20240106195001.png]]
-#### 13. Mějme libovolný úplný symetricky orientovaný graf. Jak bude vypadat jeho kondenzace? Zdůvodněte
+#### 13. Mějme libovolný úplný symetricky orientovaný graf. Jak bude vypadat jeho kondenzace? Zdůvodněte *(2 body)*
 ---
 
 - kondenzace bude tvořena jediným uzlem, protože úplný sym. orientovaný graf je celý silněsouvislý (je celý jednou silnou komponentou), z níž pak kondenzací vznikne onen uzel
