@@ -1,3 +1,26 @@
+1. **Množina přirozených čísel (N):**
+    
+    - Příklad: ($N = {0, 1, 2, 3, 4, \ldots}$)
+
+2. **Množina celých čísel (Z):**
+    
+    - Příklad: ($Z = {\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots}$)
+    
+
+3. **Množina racionálních čísel (Q):**
+    
+    - Příklad: ($Q = {\frac{1}{2}, -\frac{3}{4}, 3, 0, \frac{7}{1}, \ldots}$) (kde čísla mohou být zlomky nebo celá čísla)
+    
+
+4. **Množina reálných čísel (R):**
+    
+    - Příklad: ($R = {-\sqrt{2}, -1, 0, 1, \frac{3}{4}, \pi, 2.5, \ldots}$) (kde čísla mohou být racionální i iracionální)
+    
+
+5. **Množina komplexních čísel (C):**
+    
+    - Příklad: ($C = {3 + 4i, -2i, 1, -\sqrt{2} + \frac{5}{2}i, \ldots}$) (kde (i) je imaginární jednotka)
+
 ## Část I: Množiny, relace, zobrazení
 #### 1. Zvolte si tři libovolné čtyřprvkové množiny A,B,C tak, že $A \cup B \cap C$. Ukažte na nich, zda platí rovnost $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$. *(2 body)*
 ---
