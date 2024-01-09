@@ -139,6 +139,8 @@ Uvažme model, kde $P$ není pravdivé *(nejezdím vlakem)* a $Q$ není pravdiv�
 
 Tedy věta pod čarou (Nejedu vlakem) je sémantickým důsledkem vět nad čarou.
 
+Nechť S je "Všechny lidi jsou smrtelní" a K je "Každý člověk má srdce." Pokud platí, že ve všech situacích, kde jsou všichni lidé skutečně smrtelní (S je pravdivá), je pravdivé i to, že každý z nich má srdce (K). Pak můžeme říci, že K je konsekventní s S nebo že K je sémantickým důsledkem S.
+
 **Zjišťujeme konsekvent**
 - **Konsekvent laijkcy.** Vezemem ty **předchozíi** řádky kde jsou **dve jedničky**, pokud jsou **dve jedničky v tom řádku** i u vysledné, tak poté **je to konsvekvent**
 #### 9. Zadanou formuli vyjádřete pravdivostní tabulkou a zapište ji v CNF. Formuli v CNF znegujte. *(4 body)*
@@ -152,20 +154,6 @@ Nejprve si připomenme, jak jsou definovány některé logické operátory:
 - $\land$ značí konjunkci (AND),
 - $\Rightarrow$ značí implikaci,
 - $\oplus$ značí XOR (exkluzivní nebo).
-
-Máme tedy formuli $(\neg a \lor b) \Rightarrow (b \oplus a)$. Převedeme ji postupně na CNF:
-
-1. **Převedení implikace:** $(\neg a \lor b) \Rightarrow (b \oplus a)$ $\equiv (\neg (\neg a \lor b)) \lor (b \oplus a)$ $\equiv (a \land \neg b) \lor (b \oplus a)$
-    
-2. **Převedení XOR:** $(a \land \neg b) \lor (b \oplus a)$ $\equiv (a \land \neg b) \lor ((a \land \neg b) \lor (\neg a \land b)) \land \neg (a \land \neg b \land \neg a \land b)$ $\equiv (a \land \neg b) \lor ((a \land \neg b) \lor (\neg a \land b)) \land \neg (a \land \neg b \land \neg b \land a)$ $\equiv (a \land \neg b) \lor ((a \land \neg b) \lor (\neg a \land b)) \land \neg (a \land \neg b)$
-    
-3. **Převedení distributivního zákona:** $(a \land \neg b) \lor ((a \land \neg b) \lor (\neg a \land b)) \land \neg (a \land \neg b)$ $\equiv (a \land \neg b) \lor (\neg a \land b) \land \neg (a \land \neg b)$ $\equiv (a \land \neg b) \lor (\neg a \land b) \land (\neg a \lor \neg \neg b)$ $\equiv (a \land \neg b) \lor (\neg a \land b) \land (\neg a \lor b)$
-    
-4. **Převedení do CNF:** $(a \land \neg b) \lor (\neg a \land b) \land (\neg a \lor b)$ $\equiv (a \land \neg b \land (\neg a \lor b)) \lor (\neg a \land b \land (\neg a \lor b))$
-    
-
-Tím jsme získali formuli v CNF: $ (a \land \neg b \land (\neg a \lor b)) \lor (\neg a \land b \land (\neg a \lor b))$
-
 ##### DNF a CNF
 Disjunktivní normální forma *(DNF)* a konjunktivní normální forma *(CNF)* jsou dvě různé formy zápisu logických formulí, kde každá reprezentuje výraz ve formě **disjunkce** a **konjunkce** logických klauzulí, odpovídajících výrokovým proměnným a jejich negacím.
 
