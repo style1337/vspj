@@ -94,6 +94,8 @@ $$R'=\{(1,1),(1,2),(1,3),(2,1),(2,2),(2,3),(3,1),(3,2),(3,3)\}$$
 
 Nyní je relace $R'$ symetrická, protože obsahuje všechny původní prvky $R$ a jejich symetrické páry.
 
+- Nebo napíšeme si body do grafu a pak je zrcadlíme
+![[img/Pasted image 20240109144610.png]]
 
 ## Část II: Výroková a predikátová logika
 #### 6. Zjistěte pravdivostní hodnotu formule *(2 body)*

@@ -72,7 +72,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d6b1352a6ff3bf6f",
@@ -145,7 +146,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,6 +162,7 @@
   },
   "active": "5d5001502a2e5720",
   "lastOpenFiles": [
+    "img/Pasted image 20240109144610.png",
     "Vysoká škola polytechnická Jihlava.md",
     "img/binarni_strom.png",
     "img/Pasted image 20230919131043.png",
