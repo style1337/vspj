@@ -141,6 +141,27 @@ Tedy věta pod čarou (Nejedu vlakem) je sémantickým důsledkem vět nad čaro
 ---
 $(\neg a \lor b) \Rightarrow (b XOR a)$
 
+Nejprve si připomenme, jak jsou definovány některé logické operátory:
+
+- $\neg$ značí negaci (NOT),
+- $\lor$ značí disjunkci (OR),
+- $\land$ značí konjunkci (AND),
+- $\Rightarrow$ značí implikaci,
+- $\oplus$ značí XOR (exkluzivní nebo).
+
+Máme tedy formuli $(\neg a \lor b) \Rightarrow (b \oplus a)$. Převedeme ji postupně na CNF:
+
+1. **Převedení implikace:** $(\neg a \lor b) \Rightarrow (b \oplus a)$ $\equiv (\neg (\neg a \lor b)) \lor (b \oplus a)$ $\equiv (a \land \neg b) \lor (b \oplus a)$
+    
+2. **Převedení XOR:** $(a \land \neg b) \lor (b \oplus a)$ $\equiv (a \land \neg b) \lor ((a \land \neg b) \lor (\neg a \land b)) \land \neg (a \land \neg b \land \neg a \land b)$ $\equiv (a \land \neg b) \lor ((a \land \neg b) \lor (\neg a \land b)) \land \neg (a \land \neg b \land \neg b \land a)$ $\equiv (a \land \neg b) \lor ((a \land \neg b) \lor (\neg a \land b)) \land \neg (a \land \neg b)$
+    
+3. **Převedení distributivního zákona:** $(a \land \neg b) \lor ((a \land \neg b) \lor (\neg a \land b)) \land \neg (a \land \neg b)$ $\equiv (a \land \neg b) \lor (\neg a \land b) \land \neg (a \land \neg b)$ $\equiv (a \land \neg b) \lor (\neg a \land b) \land (\neg a \lor \neg \neg b)$ $\equiv (a \land \neg b) \lor (\neg a \land b) \land (\neg a \lor b)$
+    
+4. **Převedení do CNF:** $(a \land \neg b) \lor (\neg a \land b) \land (\neg a \lor b)$ $\equiv (a \land \neg b \land (\neg a \lor b)) \lor (\neg a \land b \land (\neg a \lor b))$
+    
+
+Tím jsme získali formuli v CNF: $ (a \land \neg b \land (\neg a \lor b)) \lor (\neg a \land b \land (\neg a \lor b))$
+
 ##### DNF a CNF
 Disjunktivní normální forma *(DNF)* a konjunktivní normální forma *(CNF)* jsou dvě různé formy zápisu logických formulí, kde každá reprezentuje výraz ve formě **disjunkce** a **konjunkce** logických klauzulí, odpovídajících výrokovým proměnným a jejich negacím.
 
@@ -218,7 +239,24 @@ vypiš znak ) tj. pravou závorku
 vypiš znak ) tj. pravou závorku
 Projděte oběma způsoby níže uvedený strom.
 
-![[img/Pasted image 20240106195001.png]]
+![[img/binarni_strom.png]]
+
+Inorder, Preorder a Postorder jsou tři různé způsoby, jak procházet binární stromy. Binární strom je hierarchická datová struktura skládající se z uzlů (nebo vrcholů), kde každý uzel může mít až dva potomky, levého a pravého.
+
+1. **Inorder (levý podstrom - kořen - pravý podstrom):**
+    - Projde levý podstrom.
+    - Navštíví kořen.
+    - Projde pravý podstrom.
+
+- **Preorder (kořen - levý podstrom - pravý podstrom):**
+    - Navštíví kořen.
+    - Projde levý podstrom.
+    - Projde pravý podstrom.
+    
+- **Postorder (levý podstrom - pravý podstrom - kořen):**
+    - Projde levý podstrom.
+    - Projde pravý podstrom.
+    - Navštíví kořen.
 #### 13. Mějme libovolný úplný symetricky orientovaný graf. Jak bude vypadat jeho kondenzace? Zdůvodněte *(2 body)*
 ---
 
@@ -228,6 +266,7 @@ Projděte oběma způsoby níže uvedený strom.
 
 ##### Když by náhodou byl nesymetrický
 - Celkově lze říci, že kondenzace nesymetrického grafu bude reflektovat strukturu silně souvislých komponent v původním grafu.
+
 
 
 #### Nebylo v testu ale
