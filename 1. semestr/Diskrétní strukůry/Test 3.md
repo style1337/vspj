@@ -115,6 +115,8 @@ Nyní je relace $R'$ symetrická, protože obsahuje všechny původní prvky $R$
 - $\exists x [R(x) \land \neg Z(x)]$
 	Negace: $\forall x [\neg R(x) \lor Z(x)]$
 
+- Takto se neguje implikace
+![[img/Pasted image 20240109150129.png]]
 
 #### 8. Přeformulujte věty do formulí výrokového počtu a zjistěte, zda je věta pod čarou konsekventem *(sémantickým důsledkem)* vět nad čarou, zdůvodněte. (4 body)
 ---
