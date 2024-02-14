@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5d5001502a2e5720",
+            "id": "0a37bda77ad4d8c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/Test 3.md",
+                "file": "4. semestr/Matematika/Přednáška.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/Test 3.md",
+                "file": "4. semestr/Matematika/Přednáška.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/Test 3.md"
+                "file": "4. semestr/Matematika/Přednáška.md"
               }
             }
           },
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. semestr/Diskrétní strukůry/Test 3.md",
+                "file": "4. semestr/Matematika/Přednáška.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,11 +159,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5d5001502a2e5720",
+  "active": "0a37bda77ad4d8c1",
   "lastOpenFiles": [
+    "4. semestr/Matematika",
+    "1. semestr/Diskrétní strukůry/Test 3.md",
+    "4. semestr/Matematika/Přednáška.md",
+    "4. semestr",
     "Vysoká škola polytechnická Jihlava.md",
     "1. semestr/Diskrétní strukůry/Ústní zkouška z DS.md",
-    "1. semestr/Diskrétní strukůry/Test 3.md",
     "img/Pasted image 20240109162607.png",
     "img/Pasted image 20240109161939.png",
     "img/Pasted image 20240109154355.png",
@@ -198,7 +201,6 @@
     "3. semestr/Řízení softwarových projektů/RSP.md",
     "1. semestr/Diskrétní strukůry/1.test/Výroková logika.md",
     "1. semestr/Diskrétní strukůry/1.test/Kartézský součin.md",
-    "1. semestr/Diskrétní strukůry/1.test/de Morganovy zákony.md",
     "1. semestr/Diskrétní strukůry/1.test",
     "1. semestr/Diskrétní strukůry/Untitled.canvas",
     "3. semestr/Matematický seminář/Poznámky z hodin",
@@ -208,7 +210,6 @@
     "1. semestr/Matematika",
     "1. semestr/Diskrétní strukůry",
     "1. semestr",
-    "3. semestr/Webové technologie",
-    "3. semestr/Serverový a desktopová administrace"
+    "3. semestr/Webové technologie"
   ]
 }
