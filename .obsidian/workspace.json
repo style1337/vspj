@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. semestr/Matematika/Přednáška.md",
+                "file": "2. semestr/DB/SQL teorie.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -22,6 +22,27 @@
           }
         ],
         "stacked": true
+      },
+      {
+        "id": "2c12cfde9afcffe9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "439beb0d2ace1594",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "4. semestr/Návrh a implementace databázových systémů/Cvičení 1.canvas",
+                "viewState": {
+                  "x": -604.5,
+                  "y": 775.2818181818182,
+                  "zoom": -0.471305718925589
+                }
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -72,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d6b1352a6ff3bf6f",
@@ -88,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4. semestr/Matematika/Přednáška.md",
+                "file": "4. semestr/Návrh a implementace databázových systémů/Cvičení 1.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. semestr/Matematika/Přednáška.md"
+                "file": "4. semestr/Návrh a implementace databázových systémů/Cvičení 1.canvas"
               }
             }
           },
@@ -121,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4. semestr/Matematika/Přednáška.md",
+                "file": "4. semestr/Návrh a implementace databázových systémů/Cvičení 1.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,13 +181,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0a37bda77ad4d8c1",
+  "active": "be609eaaf2066c11",
   "lastOpenFiles": [
+    "2. semestr/DB/SQL teorie.md",
+    "4. semestr/Návrh a implementace databázových systémů/Cvičení 1.canvas",
+    "4. semestr/Návrh a implementace databázových systémů/Cvičení 1 - SQL dotazy.md",
+    "4. semestr/Návrh a implementace databázových systémů/Cvičení.md",
+    "4. semestr/Návrh a implementace databázových systémů",
+    "Vysoká škola polytechnická Jihlava.md",
     "4. semestr/Matematika",
     "1. semestr/Diskrétní strukůry/Test 3.md",
     "4. semestr/Matematika/Přednáška.md",
     "4. semestr",
-    "Vysoká škola polytechnická Jihlava.md",
     "1. semestr/Diskrétní strukůry/Ústní zkouška z DS.md",
     "img/Pasted image 20240109162607.png",
     "img/Pasted image 20240109161939.png",
@@ -198,9 +225,6 @@
     "3. semestr/Řízení softwarových projektů/Sprinty.canvas",
     "1. semestr/Diskrétní strukůry/Poznámky.md",
     "1. semestr/Diskrétní strukůry/1.test/Základní množinové pojmy.md",
-    "3. semestr/Řízení softwarových projektů/RSP.md",
-    "1. semestr/Diskrétní strukůry/1.test/Výroková logika.md",
-    "1. semestr/Diskrétní strukůry/1.test/Kartézský součin.md",
     "1. semestr/Diskrétní strukůry/1.test",
     "1. semestr/Diskrétní strukůry/Untitled.canvas",
     "3. semestr/Matematický seminář/Poznámky z hodin",
@@ -208,8 +232,6 @@
     "3. semestr/Matematický seminář/Grafy elementárních (základních) funkcí",
     "3. semestr/Matematický seminář",
     "1. semestr/Matematika",
-    "1. semestr/Diskrétní strukůry",
-    "1. semestr",
-    "3. semestr/Webové technologie"
+    "1. semestr/Diskrétní strukůry"
   ]
 }
