@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. semestr/DB/SQL teorie.md",
+                "file": "4. semestr/Návrh a implementace databázových systémů/Úkol.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -22,27 +22,6 @@
           }
         ],
         "stacked": true
-      },
-      {
-        "id": "2c12cfde9afcffe9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "439beb0d2ace1594",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "4. semestr/Návrh a implementace databázových systémů/Cvičení 1.canvas",
-                "viewState": {
-                  "x": -604.5,
-                  "y": 775.2818181818182,
-                  "zoom": -0.471305718925589
-                }
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6b1352a6ff3bf6f",
@@ -110,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4. semestr/Návrh a implementace databázových systémů/Cvičení 1.canvas",
+                "file": "4. semestr/Návrh a implementace databázových systémů/Úkol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. semestr/Návrh a implementace databázových systémů/Cvičení 1.canvas"
+                "file": "4. semestr/Návrh a implementace databázových systémů/Úkol.md"
               }
             }
           },
@@ -143,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4. semestr/Návrh a implementace databázových systémů/Cvičení 1.canvas",
+                "file": "4. semestr/Návrh a implementace databázových systémů/Úkol.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,10 +159,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "be609eaaf2066c11",
+  "active": "0a37bda77ad4d8c1",
   "lastOpenFiles": [
-    "2. semestr/DB/SQL teorie.md",
     "4. semestr/Návrh a implementace databázových systémů/Cvičení 1.canvas",
+    "4. semestr/Návrh a implementace databázových systémů/Úkol.md",
+    "2. semestr/DB/SQL teorie.md",
     "4. semestr/Návrh a implementace databázových systémů/Cvičení 1 - SQL dotazy.md",
     "4. semestr/Návrh a implementace databázových systémů/Cvičení.md",
     "4. semestr/Návrh a implementace databázových systémů",
@@ -224,7 +203,6 @@
     "3. semestr/Řízení softwarových projektů/Untitled.md",
     "3. semestr/Řízení softwarových projektů/Sprinty.canvas",
     "1. semestr/Diskrétní strukůry/Poznámky.md",
-    "1. semestr/Diskrétní strukůry/1.test/Základní množinové pojmy.md",
     "1. semestr/Diskrétní strukůry/1.test",
     "1. semestr/Diskrétní strukůry/Untitled.canvas",
     "3. semestr/Matematický seminář/Poznámky z hodin",
