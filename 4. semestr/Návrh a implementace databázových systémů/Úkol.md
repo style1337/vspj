@@ -1,1 +1,1 @@
-## Fun
+## Funkční závislosti
