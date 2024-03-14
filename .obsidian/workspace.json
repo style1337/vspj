@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. semestr/Návrh a implementace databázových systémů/Úkol na 14.3.2024.md",
+                "file": "4. semestr/Návrh a implementace databázových systémů/14.3.2024.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -72,8 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6b1352a6ff3bf6f",
@@ -89,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4. semestr/Návrh a implementace databázových systémů/Úkol na 14.3.2024.md",
+                "file": "4. semestr/Návrh a implementace databázových systémů/14.3.2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. semestr/Návrh a implementace databázových systémů/Úkol na 14.3.2024.md"
+                "file": "4. semestr/Návrh a implementace databázových systémů/14.3.2024.md"
               }
             }
           },
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4. semestr/Návrh a implementace databázových systémů/Úkol na 14.3.2024.md",
+                "file": "4. semestr/Návrh a implementace databázových systémů/14.3.2024.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,11 +161,12 @@
   },
   "active": "0a37bda77ad4d8c1",
   "lastOpenFiles": [
-    "4. semestr/Návrh a implementace databázových systémů/Cvičení 1.canvas",
-    "Vysoká škola polytechnická Jihlava.md",
-    "Untitled.canvas",
-    "README.md",
     "4. semestr/Návrh a implementace databázových systémů/Úkol na 14.3.2024.md",
+    "4. semestr/Návrh a implementace databázových systémů/14.3.2024.md",
+    "Untitled.canvas",
+    "Vysoká škola polytechnická Jihlava.md",
+    "4. semestr/Návrh a implementace databázových systémů/Cvičení 1.canvas",
+    "README.md",
     "2. semestr/DB/SQL teorie.md",
     "4. semestr/Návrh a implementace databázových systémů/Cvičení 1 - SQL dotazy.md",
     "4. semestr/Návrh a implementace databázových systémů/Cvičení.md",
