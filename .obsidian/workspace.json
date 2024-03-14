@@ -72,8 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6b1352a6ff3bf6f",
@@ -162,11 +161,11 @@
   },
   "active": "0a37bda77ad4d8c1",
   "lastOpenFiles": [
+    "4. semestr/Návrh a implementace databázových systémů/Cvičení 1.canvas",
     "4. semestr/Návrh a implementace databázových systémů/Úkol na 14.3.2024.md",
+    "Vysoká škola polytechnická Jihlava.md",
     "4. semestr/Návrh a implementace databázových systémů/14.3.2024.md",
     "Untitled.canvas",
-    "Vysoká škola polytechnická Jihlava.md",
-    "4. semestr/Návrh a implementace databázových systémů/Cvičení 1.canvas",
     "README.md",
     "2. semestr/DB/SQL teorie.md",
     "4. semestr/Návrh a implementace databázových systémů/Cvičení 1 - SQL dotazy.md",
@@ -204,7 +203,6 @@
     "2. semestr/PTPS/PTPS_Praktická zkouška.md",
     "3. semestr/Řízení softwarových projektů/Untitled.md",
     "3. semestr/Řízení softwarových projektů/Sprinty.canvas",
-    "1. semestr/Diskrétní strukůry/Poznámky.md",
     "1. semestr/Diskrétní strukůry/1.test",
     "1. semestr/Diskrétní strukůry/Untitled.canvas",
     "3. semestr/Matematický seminář/Poznámky z hodin",
