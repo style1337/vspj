@@ -43,6 +43,7 @@ $$C \to A$$
 $C:A(C,A,D,B)$
 $C+=(C,D)$, Není redudatní
 
+$F_{min}=\{C \to A, A \to B, C \to D, D \to C\}$
 - určit další klíče
 $R(D,C,B,A)$
 $F = {A \to B, BC \to D, D \to BC, C \to A}$
