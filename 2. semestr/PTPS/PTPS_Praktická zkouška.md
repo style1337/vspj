@@ -18,7 +18,7 @@ PS2-(váš login)-Win_server_2019
 ````
 E:\PTPS\váš login\ 
 ````
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511141315.png]]
+![](PZ_img/001.png) 
 ### Specify Generation
 ````
 Generation 2 
