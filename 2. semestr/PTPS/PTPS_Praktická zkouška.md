@@ -1,5 +1,4 @@
 # 1) Instalace Windows serveru
-
 Přesuneme ISO a nebo VHDX soubor do podle zadání 
 	Nejspíš to bude na disk E:\ do své složky
 	Po spuštění VM nezapomenout zmáčknout klávesu, aby se pustil boot z ISO  
@@ -23,29 +22,37 @@ E:\PTPS\váš login\
 ````
 Generation 2 
 ````
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511141420.png]]
+![](PZ_img/002.png) 
+ 
 ### Assign Memory 
 ````
 4096 MB
 ````
 "Dynamic memory" není potřeba zapíná, když je vypnutá nic to nezmění
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511141629.png]]
+
+![](PZ_img/003.png) 
+
 ### Configure Networking
 ````
 Virtual switch nad I219V  
 ````
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511142017.png]]
+
+![](PZ_img/004.png)
+
 ### Connect Virtual Hard Disk  
 Vybereme, **Use an existing virtual hard disk** a uvedeme disk který nám byl poskytnut od učitele většinou se ukládá na **disk E**
 ````
 E:\PS2\váš login\Win_server_2019\Virtual Hard Disks\ 
 ````
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511142617.png]]
+
+![](PZ_img/005.png) 
+
 Když nebudeme mít disk *(což nepřepokládám)* tak můžeme vytvořit disk možností **Create a virtual hard disk** a uložíme na **disk E do své složky** a **dáme velikost 127 GB**. A v další sekci uvdeme cestu k ISO souboru co jsme dostali od učitele. 
 ````
 E:\Hyper-V\Windows_server_2019.iso
 ````
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511142939.png]]
+
+![](PZ_img/006.png) 
 
 ---
 # 2) Instalace Windows (klient)
@@ -74,16 +81,20 @@ E:\Hyper-V\Windows_Edu.iso
 Statická IPv4 adresa:             **192.168.60.100+X/24**        **(X** je číslo tvého PC)
 Gateway:                                **192.168.60.254**
 DNS1:                                     **192.168.50.165**
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511180658.png]]
+
+![](PZ_img/007.png) 
 
 ### Internal síťová karta:
 Statická IPv4 adresa:             10.0.0.1/8
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511181001.png]]
+
+![](PZ_img/008.png) 
 
 ## Stanice (klient) Windows 10
 ### Internal síťová karta:
 Statická IPv4 adresa:             10.0.0.2/8
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511190113.png]]
+
+![](PZ_img/009.png) 
+
 ### MASKA
 /8        >          255.0.0.0 -internal
 /24      >          25.255.255.0 – virtual switch
@@ -92,46 +103,62 @@ Statická IPv4 adresa:             10.0.0.2/8
 # 4) Instalace AD včetně DNS – přidání uživatele ‘‘uživatel‘‘ do AD
 ## Instalace Active Directory (AD)
 - **Server manager -> Manage (vlaječka) -> Add roles features -> doinstalovat AD a DNS**
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511143919.png]]
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511190643.png]]
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511190736.png]]
+
+![](PZ_img/010.png) 
+
+![](PZ_img/011.png) 
+
+![](PZ_img/012.png) 
 ## Nastavení AD
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511191027.png]]
+
+![](PZ_img/013.png) 
 **Add a new forest**
 A jako **Root domain name** nastavíme 
 ````
 ad.vspj.eit
 ````
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511191140.png]]
+
+![](PZ_img/014.png) 
 ## Přidaní uživatele
 Active Directory Users and Computers > ad.vspj.eit >Users
-![[2. semestr/PTPS/PZ_img/Pasted image 20230512081323.png]]
-Příklad vytváření uživatele:
-![[2. semestr/PTPS/PZ_img/Pasted image 20230512081406.png]]
 
-]]![[2. semestr/PTPS/PZ_img/Pasted image 20230511145008.png]]![[2. semestr/PTPS/PZ_img/Pasted image 20230511145021.png]]
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511145028.png]]
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511145049.png]]![[2. semestr/PTPS/PZ_img/Pasted image 20230511145132.png]]
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511145140.png]]
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511145145.png]]
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511145228.png]]
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511145238.png]]
+![](PZ_img/015.png) 
+Příklad vytváření uživatele:
+
+![](PZ_img/016.png) 
+
+
+![](PZ_img/017.png)
+
+![](PZ_img/018.png)
+
+![](PZ_img/019.png)
+![](PZ_img/020.png)
+![](PZ_img/021.png)
+![](PZ_img/022.png)
+![](PZ_img/023.png)
+![](PZ_img/024.png)
+![](PZ_img/025.png)
+
 ## DNS
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511173544.png]]
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511173553.png]]
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511173558.png]]
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511173603.png]]
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511173608.png]]
+
+![](PZ_img/025.png)
+
+![](PZ_img/026.png)
+![](PZ_img/027.png)
+![](PZ_img/028.png)
+![](PZ_img/029.png)
 Asi 10.0.0
 
 Podle Internal
 ??
 
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511173647.png]]
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511173651.png]]
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511173655.png]]
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511173658.png]]
-![[2. semestr/PTPS/PZ_img/Pasted image 20230511173702.png]]
+
+![](PZ_img/030.png)
+![](PZ_img/031.png)
+![](PZ_img/032.png)
+![](PZ_img/033.png)
+![](PZ_img/034.png)
 A zkontrolovat v cmd nslookup
 
 **Napsat nslookup**
