@@ -1,10 +1,5 @@
 # 1) Instalace Windows serveru
 
-Přesuneme ISO a nebo VHDX soubor do podle zadání 
-	Nejspíš to bude na disk E:\ do své složky
-	Po spuštění VM nezapomenout zmáčknout klávesu, aby se pustil boot z ISO  
-	Jazyk nechat EN  
-	Instalace Windows Server 2019 Datacenter Experience
 
 Nastavení admin hesla Password1*
 
@@ -77,30 +72,38 @@ DNS1:                                     **192.168.50.165**
 ![alt text](PZ_img/007.png)
 
 ### Internal síťová karta:
-Statická IPv4 adresa:             10.0.0.1/8
+Statická IPv4 adresa:             10.100.0.1/16
 ![alt text](PZ_img/008.png)
 
 ## Stanice (klient) Windows 10
 ### Internal síťová karta:
-Statická IPv4 adresa:             10.0.0.2/8
+Statická IPv4 adresa:             10.100.0.2/16
 ![alt text](PZ_img/009.png)
 ### MASKA
-/8        >          255.0.0.0 -internal
+/8        >          255.255.0.0 -internal
 /24      >          25.255.255.0 – virtual switch
 
 ---
 # 4) Instalace AD včetně DNS – přidání uživatele ‘‘uživatel‘‘ do AD
+
+## Přejmenování serveru
+https://cdn.hostadvice.com/2022/04/how-to-change-hostname-or-server-name-in-windows-server-2022-2.png.webp
+SERVER-XX (XX = číslo počítače)
+
 ## Instalace Active Directory (AD)
 - **Server manager -> Manage (vlaječka) -> Add roles features -> doinstalovat AD a DNS**
 ![alt text](PZ_img/010.png)
 ![alt text](PZ_img/011.png)
 ![alt text](PZ_img/012.png)
+
+**Nezapomenout na DNS**
+
 ## Nastavení AD
 ![alt text](PZ_img/013.png)
 **Add a new forest**
 A jako **Root domain name** nastavíme 
 ````
-ad.vspj.eit
+eitXX.vspj.cz (XX = číslo počítače)
 ````
 ![alt text](PZ_img/014.png)
 ## Přidaní uživatele
@@ -109,51 +112,23 @@ Active Directory Users and Computers > ad.vspj.eit >Users
 Příklad vytváření uživatele:
 ![alt text](PZ_img/016.png)
 
-)![alt text](PZ_img/017.png)![alt text](PZ_img/018.png)
-![alt text](PZ_img/019.png)
-![alt text](PZ_img/020.png)![alt text](PZ_img/021.png)
-![alt text](PZ_img/022.png)
-![alt text](PZ_img/023.png)
-![alt text](PZ_img/024.png)
-![alt text](PZ_img/025.png)
+
 ## DNS
-![alt text](PZ_img/026.png)
-![alt text](PZ_img/027.png)
-![alt text](PZ_img/028.png)
-![alt text](PZ_img/029.png)
-![alt text](PZ_img/030.png)
-Asi 10.0.0
-
-Podle Internal
-??
-
-![alt text](PZ_img/031.png)
-![alt text](PZ_img/032.png)
-![alt text](PZ_img/033.png)
-![alt text](PZ_img/034.png)
-![alt text](PZ_img/035.png)
-A zkontrolovat v cmd nslookup
-
-**Napsat nslookup**
-
-**Pak napsat adresu**
-![alt text](PZ_img/036.png)
-
+https://computingforgeeks.com/configure-dns-server-on-windows-server-2022/
 # 5) Nasdílení složky (home)
-````
-C:\home\%username%
-````
-Nasdílení složky  jako domovské složky pro účet ‘‘uživatel‘‘, a nastavení práv RW jen pro tohoto uživatele *(na serveru)*
+Na disku C: vytvoříme složku "home"
+Nasdílení složky  jako domovské složky pro účet ‘‘uzivatel‘‘, a nastavení práv RW jen pro tohoto uživatele *(na serveru)*
+Při zapínaní sdílení přidat na konec symbol dolaru
 ![alt text](PZ_img/037.png)
 ![alt text](PZ_img/038.png)
 ![alt text](PZ_img/039.png)
-![alt text](PZ_img/040.png)
 ![alt text](PZ_img/041.png)
 - Pak smazat účty
 - A nastavit pro uživatelská práva
 - Zabezpečení > Upravit > Přidat > Uživatel
 ![alt text](PZ_img/042.png)
 ![alt text](PZ_img/043.png)
+Nastavit jen read u uzivatele
 # 6) Nasdílení složky (nějaké společné)
 Nasdílení složky a nastavení práv 
 ````
@@ -170,6 +145,7 @@ jako společné složky pro domain users pro čtení i zápis
 - Konfigurace mapování home disku H: a společného disku S: pro doménové stanice
 ## MAPOVÁNÍ HOME disku H: 
 Pak zkopírovat **NETWORK PATH/Síťová cesta**:
+
 ![alt text](PZ_img/050.png)
 A pak dále v **Active Directory Users and Computers**
 Nastavení uživatele
@@ -190,7 +166,7 @@ H:        \\domena\home$\%username%
 - Under the General tab (see Figure 1 below), do the following:
 
 	Action: **Update**.
-	Location: \\domena\spolecne.
+	Location: \\\domena\spolecne.
 	Reconnect: **ANO**
 	Label as: **spolecne.**
 	Drive Letter: **S:**
@@ -200,12 +176,15 @@ H:        \\domena\home$\%username%
 
 ![alt text](PZ_img/052.png)
 PAK v **GROUP POLICY MANAGEMENT**
-Pravým na vytvořený GPO Link a Existing GPO a Vybrat Map drive S
+Pravým na domenu a kliknout na Link a Existing GPO a Vybrat Map drive S
 **Pak v cmd příkaz gpupdate /force**
 # 8) Přihlášení stanice do domény, test přihlášení a mapování síťových disků
+Pujdes na Win 10
+https://www.itechguides.com/join-windows-10-to-domain/
+Ujisti se ze nastavujes domenu a ne workgroup, napises tam "eitXX.vspj.cz"
 # 9) Konfigurace DHCP serveru
 ````
-Konfigurace DHCP serveru pro internal LAN 10.0.0.0/8, server 10.0.0.1, DHCP rozsah 10.0.0.100 až 10.0.0.200, připojení stanice a ověření konektivity na server
+Konfigurace DHCP serveru pro internal LAN 10.100.0.0/16, server 10.100.0.1, DHCP rozsah 10.100.0.100 až 10.100.0.200, připojení stanice a ověření konektivity na server
 ````
 ## Postup
 ![alt text](PZ_img/053.png)
@@ -276,6 +255,7 @@ Konfigurace Windows serveru jako terminálového serveru pro domain users včetn
 ## Postup
 Nainstalujte službu "Remote Desktop Services" na Windows Serveru
 ![alt text](PZ_img/071.png)
+Pridej jeste Remote Desktop Licensing
 ![alt text](PZ_img/072.png)
 A pak přidáme třeba našeho vytvořeného uživatele do skupiny Remote Desktop Users
 ![alt text](PZ_img/073.png)
